@@ -1,5 +1,0 @@
-airspace_id,name,status,reason,closed_since,closed_until,notam_ref,severity,affected_operators,bbox_north,bbox_south,bbox_west,bbox_east,color
-AS001,FIR Moskwa / Rosja,closed,"Konflikt zbrojny, sankcje UE/ICAO",2022-02-28,indefinite,A1247/22,critical,"Norwegian,KLM,Lufthansa,SunExpress",72.0,50.0,28.0,180.0,#DC2626
-AS002,FIR Kijów / Ukraina,closed,Konflikt zbrojny,2022-02-24,indefinite,C0891/22,critical,"LOT Polish,Enter Air,Smartwings,Corendon",52.4,44.4,22.1,40.2,#DC2626
-AS003,FIR Mińsk / Białoruś,closed,Sankcje UE po incydencie Ryanair FR4978,2021-05-27,indefinite,B0234/21,critical,"Ryanair,LOT Polish,Enter Air",53.9,51.2,23.2,32.8,#DC2626
-AS004,FIR Teheran / Iran,restricted,"Napięcia regionalne, ograniczenia NOTAM",2024-04-15,2024-12-31,M0456/24,warning,"SunExpress,Corendon,TUI fly",39.8,25.1,44.0,63.3,#F59E0B
