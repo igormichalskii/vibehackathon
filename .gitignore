@@ -12,6 +12,12 @@ node_modules/
 dist/
 .parcel-cache/
 
+# Vite cache
+.vite/
+
+# Generated outputs (plots — CSVs are needed by the API)
+backend/output/*.png
+
 # Env
 .env
 .env.*
