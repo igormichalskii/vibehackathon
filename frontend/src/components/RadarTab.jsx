@@ -213,11 +213,12 @@ export default function RadarTab({ onNavigate }) {
 
   // Fetch API data
   useEffect(() => {
+    const safeJson = r => r.ok ? r.json().then(d => Array.isArray(d) ? d : []) : Promise.resolve([]);
     Promise.all([
-      fetch('/api/radar/airspaces').then(r => r.json()).catch(() => []),
-      fetch('/api/radar/airports').then(r => r.json()).catch(() => []),
-      fetch('/api/radar/routes').then(r => r.json()).catch(() => []),
-      fetch('/api/radar/impact').then(r => r.json()).catch(() => []),
+      fetch('/api/radar/airspaces').then(safeJson).catch(() => []),
+      fetch('/api/radar/airports').then(safeJson).catch(() => []),
+      fetch('/api/radar/routes').then(safeJson).catch(() => []),
+      fetch('/api/radar/impact').then(safeJson).catch(() => []),
     ]).then(([airspaces, airports, routes, impact]) => {
       setAirspacesData(airspaces);
       setAirportsData(airports);

@@ -1,0 +1,13 @@
+route_id,operator,origin_icao,origin_name,dest_icao,dest_name,airspace_affected,old_flight_hours,new_flight_hours,delta_fh_per_flight,frequency_weekly,extra_fh_monthly,old_route_desc,new_route_desc,ccheck_acceleration_days,active_since
+RT001,LOT Polish,EPWA,Warszawa Chopin,LLBG,Tel Awiw Ben Gurion,AS002,3.8,4.6,0.8,14,48.2,WAW→LWO→LLBG (przez Ukrainę),WAW→BUD→LLBG (przez Węgry),47,2022-03-01
+RT002,LOT Polish,EPWA,Warszawa Chopin,UBBB,Baku Heydar Aliyev,AS002,4.2,5.3,1.1,7,33.1,WAW→KBP→UBBB (przez Ukrainę),WAW→IST→UBBB (przez Turcję),32,2022-03-01
+RT003,Norwegian,ENGM,Oslo Gardermoen,RJAA,Tokio Narita,AS001,9.3,13.8,4.5,7,135.4,OSL→SVO (przez Rosję),OSL→AUH→NRT (przez Zatokę Perską),132,2022-03-01
+RT004,Norwegian,ENGM,Oslo Gardermoen,RKSI,Seul Incheon,AS001,9.8,14.2,4.4,7,132.4,OSL→SVO (przez Rosję),OSL→DOH→ICN (przez Katar),129,2022-03-01
+RT005,KLM,EHAM,Amsterdam Schiphol,RJTT,Tokio Haneda,AS001,11.5,14.8,3.3,14,198.7,AMS→SVO (przez Rosję),AMS→AUH→HND (przez ZEA),193,2022-03-01
+RT006,KLM,EHAM,Amsterdam Schiphol,ZBAA,Pekin Capital,AS001,9.2,11.8,2.6,7,78.3,AMS→SVO (przez Rosję),AMS→IST→PEK (przez Turcję),76,2022-03-01
+RT007,SunExpress,LTFJ,Stambuł Sabiha,OMDB,Dubaj International,AS004,3.2,4.4,1.2,21,108.4,SAW→OMDB (przez Iran),SAW→OMDB (przez Arabię Saudyjską),106,2024-04-15
+RT008,SunExpress,LTFJ,Stambuł Sabiha,OJAI,Amman Queen Alia,AS004,2.1,2.8,0.7,14,42.1,SAW→AMM (przez Iran/Irak),SAW→AMM (przez Morze Śródziemne),41,2024-04-15
+RT009,Corendon,LTFM,Stambuł Nowe Lotnisko,OMDB,Dubaj International,AS004,3.3,4.5,1.2,14,72.2,IST→DXB (przez Iran),IST→DXB (przez Arabię Saudyjską),70,2024-04-15
+RT010,Enter Air,EPWA,Warszawa Chopin,HESH,Szarm el-Szejk,AS002,4.1,4.9,0.8,14,48.2,WAW→SSH (przez Ukrainę),WAW→SSH (przez Rumunię/Bułgarię),47,2022-03-01
+RT011,Smartwings,LKPR,Praga Václav Havel,LLBG,Tel Awiw Ben Gurion,AS002,3.6,4.3,0.7,7,21.1,PRG→TLV (przez Ukrainę),PRG→TLV (przez Węgry/Rumunię),21,2022-03-01
+RT012,TUI fly,EBBR,Bruksela,OMDB,Dubaj International,AS004,5.8,7.1,1.3,7,39.1,BRU→DXB (przez Iran),BRU→DXB (przez Arabię Saudyjską),38,2024-04-15

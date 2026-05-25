@@ -1,9 +1,27 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Component } from 'react';
 import Sidebar from './components/Sidebar';
 import Checks from './components/Checks';
 import RadarTab from './components/RadarTab';
 import RiskReport from './components/RiskReport';
 import TopBar from './components/TopBar';
+
+class ErrorBoundary extends Component {
+  state = { error: null };
+  static getDerivedStateFromError(error) { return { error }; }
+  render() {
+    if (this.state.error) {
+      return (
+        <div style={{ padding: 40, textAlign: 'center', color: '#6B7A90' }}>
+          <div style={{ fontSize: 14, marginBottom: 8 }}>Nie udało się załadować widoku.</div>
+          <button onClick={() => this.setState({ error: null })} style={{ fontSize: 12, color: '#005BAC', background: 'none', border: 'none', cursor: 'pointer', textDecoration: 'underline' }}>
+            Spróbuj ponownie
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -69,7 +87,9 @@ export default function App() {
             </div>
           )}
           {activeTab === 'radar' && (
-            <RadarTab onNavigate={handleNavigate} />
+            <ErrorBoundary key="radar">
+              <RadarTab onNavigate={handleNavigate} />
+            </ErrorBoundary>
           )}
           {activeTab === 'risk' && (
             <div className="tab-content" style={{ flex: 1 }}>

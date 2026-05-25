@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # ── paths ────────────────────────────────────────────────────────────────────
 LEADS_PATH       = Path(__file__).parent / "data" / "lotams_prediction_leads.csv"
-GEO_DIR          = Path(__file__).parent.parent / "geo data"
+GEO_DIR          = Path(__file__).parent / "data"
 OUTPUT_DIR       = Path(__file__).parent / "output"
 RISK_REPORT_PATH = OUTPUT_DIR / "ccheck_risk_report.csv"
 METRICS_PATHS    = {
