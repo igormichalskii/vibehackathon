@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0f1117"/>
+  <path d="M32 10 L38 28 L56 32 L38 36 L32 54 L26 36 L8 32 L26 28 Z" fill="none"/>
+  <path d="M14 34 L28 30 L32 12 L36 30 L50 34 L36 34 L34 52 L32 44 L30 52 L28 34 Z" fill="none"/>
+  <!-- airplane top-down view -->
+  <path d="M32 14 C33.5 14 35 15 35 17 L36 32 L50 38 L36 40 L35.5 48 L40 46 L40 50 L32 48 L24 50 L24 46 L28.5 48 L28 40 L14 38 L28 32 L29 17 C29 15 30.5 14 32 14 Z" fill="#60a5fa"/>
+  <path d="M32 14 C33.5 14 35 15 35 17 L36 32 L50 38 L36 40 L35.5 48 L40 46 L40 50 L32 48 L24 50 L24 46 L28.5 48 L28 40 L14 38 L28 32 L29 17 C29 15 30.5 14 32 14 Z" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="14" y1="8" x2="50" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+</svg>

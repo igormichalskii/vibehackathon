@@ -1,0 +1,42 @@
+Part,System,ATA Chapter,Corrosion Risk,Damage Probability (%),Predicted Severity,Est. RUL (FH),Priority
+Main Landing Gear Right,Landing Gear,32,10,99.1,Major,11113,HIGH
+Fuel Boost Pump #1,Fuel System,28,6,98.1,Minor,4367,HIGH
+Flap Track Left,Flight Controls,27,9,97.6,Minor,9158,HIGH
+Wing Anti-Ice Valve Left,Ice Protection,30,8,97.3,Moderate,4471,HIGH
+Nose Tire,Landing Gear,32,2,96.9,Minor,0,HIGH
+Brake Assembly Right,Landing Gear,32,8,96.8,Minor,1058,HIGH
+Wiring Harness FWD,Electrical,24,8,95.9,Minor,12854,HIGH
+Hydraulic Lines System A,Hydraulic,29,7,95.1,Minor,7554,HIGH
+Main Battery,Electrical,24,6,92.4,Minor,2381,HIGH
+Brake Assembly Left,Landing Gear,32,8,92.4,Minor,1235,HIGH
+Generator #1,Electrical,24,5,92.4,Minor,4072,HIGH
+Fuselage Skin Forward,Structure,53,8,91.9,Moderate,32870,HIGH
+Engine #1 HP Compressor,Powerplant,72,7,91.4,Minor,7378,HIGH
+Main Landing Gear Left,Landing Gear,32,10,91.3,Minor,9405,HIGH
+Wing Spar Right,Structure,57,9,90.6,Minor,39327,HIGH
+Fuel Boost Pump #2,Fuel System,28,6,90.4,Minor,4994,HIGH
+Main Tire,Landing Gear,32,2,89.2,Minor,0,HIGH
+Pax Door Frame,Structure,53,7,86.7,None,25877,HIGH
+Wing Spar Left,Structure,57,9,85.9,Moderate,38431,HIGH
+Air Conditioning Pack Right,Air Conditioning,21,7,84.1,Moderate,6696,HIGH
+Nose Landing Gear,Landing Gear,32,9,83.6,Moderate,9077,HIGH
+Aileron Left,Flight Controls,27,7,82.8,Minor,4630,HIGH
+Engine #2 Fan Blades,Powerplant,72,6,82.7,Minor,10201,HIGH
+Pitot Tube Heater,Ice Protection,30,9,82.0,Major,3897,HIGH
+Fuselage Skin Aft,Structure,53,8,81.9,Minor,36313,HIGH
+Rudder,Flight Controls,27,6,79.4,Moderate,5945,HIGH
+Bleed Air Duct Left,Pneumatic,36,6,76.5,Moderate,5902,HIGH
+Flap Track Right,Flight Controls,27,9,75.7,Minor,10335,HIGH
+Fuel Tank Wing Left,Fuel System,28,9,75.5,Minor,10480,HIGH
+Potable Water Tank,Water/Waste,38,9,67.6,None,3220,MEDIUM
+Fuel Tank Wing Right,Fuel System,28,9,66.4,Minor,9529,MEDIUM
+Hydraulic Reservoir A,Hydraulic,29,5,65.6,None,8294,MEDIUM
+Air Conditioning Pack Left,Air Conditioning,21,7,65.3,Minor,7121,MEDIUM
+Elevator Left,Flight Controls,27,6,53.8,None,5927,MEDIUM
+Wing Leading Edge Left,Structure,57,7,48.7,None,6171,MEDIUM
+Aileron Right,Flight Controls,27,7,44.7,Minor,3316,MEDIUM
+Hydraulic Pump A,Hydraulic,29,5,32.4,None,5433,LOW
+Engine #1 HP Turbine,Powerplant,72,5,29.8,None,10975,LOW
+Cargo Door,Structure,53,8,22.8,None,34026,LOW
+Engine #1 Fan Blades,Powerplant,72,6,18.0,None,13749,LOW
+Escape Slide #1,Equipment,25,4,5.0,None,14494,LOW

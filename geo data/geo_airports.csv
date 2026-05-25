@@ -1,0 +1,17 @@
+icao,iata,name,city,country,lat,lon,traffic_delta_pct,trend,baseline_flights_day,current_flights_day,top_operators,reason
+EPWA,WAW,Warszawa Chopin,Warszawa,PL,52.1657,20.9671,18,up,180,212,"LOT Polish,Ryanair,Enter Air",Wzrost ruchu tranzytowego przez zamknięcie Ukrainy
+EPKK,KRK,Kraków Balice,Kraków,PL,50.0777,19.7848,31,up,62,81,"Ryanair,Enter Air,Wizz Air",Przejęcie tras wschodnich przez operatorów polskich
+LTBA,IST,Stambuł Atatürk / Sabiha,Stambuł,TR,40.9769,28.8146,41,up,1100,1551,"Turkish Airlines,SunExpress,Pegasus",Hub tranzytowy dla tras omijających Rosję i Iran
+LKPR,PRG,Praga Václav Havel,Praga,CZ,50.1008,14.26,22,up,285,348,"Smartwings,Ryanair,Czech Airlines",Wzrost ruchu tranzytowego Europa Środkowa
+ESSA,ARN,Sztokholm Arlanda,Sztokholm,SE,59.6519,17.9186,19,up,320,381,"SAS,Norwegian,Ryanair",Skandynawskie linie wydłużają trasy do Azji przez Europę
+EHAM,AMS,Amsterdam Schiphol,Amsterdam,NL,52.3086,4.7639,8,up,1150,1242,"KLM,Transavia,easyJet",Wzrost ruchu długodystansowego przez reroutingi KLM
+ENGM,OSL,Oslo Gardermoen,Oslo,NO,60.1939,11.1004,12,up,290,325,"Norwegian,SAS,Widerøe",Norwegian wydłużyło trasy azjatyckie przez zamknięcie Rosji
+EDDF,FRA,Frankfurt Lotnisko,Frankfurt,DE,50.0379,8.5622,-4,stable,1300,1248,"Lufthansa,Condor,Ryanair","Stabilny ruch, minimalne zmiany tras"
+EGLL,LHR,Londyn Heathrow,Londyn,GB,51.4775,-0.4614,3,stable,1350,1391,"British Airways,Virgin,easyJet",Brak znaczących zmian tras
+LFPG,CDG,Paryż Charles de Gaulle,Paryż,FR,49.0097,2.5479,-2,stable,1200,1176,"Air France,easyJet,Transavia",Stabilny ruch
+LEMD,MAD,Madryt Barajas,Madryt,ES,40.4936,-3.5668,7,stable,980,1049,"Iberia,Vueling,Ryanair",Niewielki wzrost ruchu
+LOWW,VIE,Wiedeń Schwechat,Wiedeń,AT,48.1103,16.5697,9,stable,580,632,"Austrian,Ryanair,Wizz Air",Umiarkowany wzrost jako hub tranzytowy
+UKBB,KBP,Kijów Boryspil,Kijów,UA,50.345,30.8947,-71,down,320,93,"UIA,SkyUp,Wizz Air",Zamknięcie przestrzeni powietrznej Ukrainy
+ULLI,LED,Sankt Petersburg Pułkowo,Sankt Petersburg,RU,59.8003,30.2625,-45,down,380,209,"Aeroflot,S7,Pobeda","Sankcje EU, zamknięcie przestrzeni europejskiej dla lotnictwa rosyjskiego"
+URSS,AER,Soczi,Soczi,RU,43.4499,39.9566,-29,down,95,67,"Aeroflot,Pobeda,iFly","Sankcje, utrata ruchu zachodnioeuropejskiego"
+OIIE,IKA,Teheran Imam Chomeini,Teheran,IR,35.4161,51.1522,-89,down,180,20,"Iran Air,Mahan Air","Ograniczenia przestrzeni powietrznej, sankcje"

@@ -1,0 +1,112 @@
+Rejestracja,Operator,Wiek,Ostatnie okno,Czas trwania,Typ checku,Prognoza C-check
+TC-CRJ,Corendon,6,Jul 2025,32 dni,C-check,Q4 2026
+TC-CTG,Corendon,10,Jul 2025,41 dni,C-check,Q4 2026
+SP-EDB,Enter Air,10,Jul 2025,27 dni,C-check,Q4 2026
+SP-EUZ,Enter Air,10,Aug 2025,45 dni,C-check,Q4 2026
+SP-EVM,Enter Air,10,Jul 2025,38 dni,C-check,Q4 2026
+SP-EYP,Enter Air,10,Sep 2025,60 dni,C-check,Q4 2026
+SP-LKU,LOT Polish,8,Sep 2025,44 dni,C-check,Q4 2026
+SP-LOD,LOT Polish,10,Jul 2025,44 dni,C-check,Q4 2026
+SP-LPL,LOT Polish,10,Aug 2025,45 dni,C-check,Q4 2026
+SP-LQQ,LOT Polish,10,Aug 2025,26 dni,C-check,Q4 2026
+D-ADO,Lufthansa,10,Aug 2025,35 dni,C-check,Q4 2026
+D-AJP,Lufthansa,10,Jul 2025,44 dni,C-check,Q4 2026
+D-AXY,Lufthansa,5,Aug 2025,47 dni,C-check,Q4 2026
+LN-NAQ,Norwegian,7,Aug 2025,26 dni,C-check,Q4 2026
+LN-NLP,Norwegian,2,Sep 2025,43 dni,C-check,Q4 2026
+EI-DBF,Ryanair,2,Aug 2025,25 dni,C-check,Q4 2026
+EI-DFT,Ryanair,5,Aug 2025,27 dni,C-check,Q4 2026
+EI-DIJ,Ryanair,2,Aug 2025,28 dni,C-check,Q4 2026
+EI-DOU,Ryanair,5,Aug 2025,26 dni,C-check,Q4 2026
+EI-DUB,Ryanair,6,Aug 2025,39 dni,C-check,Q4 2026
+EI-DVI,Ryanair,9,Oct 2025,52 dni,C-check,Q4 2026
+EI-DVP,Ryanair,6,Aug 2025,34 dni,C-check,Q4 2026
+OK-SIY,Smartwings,10,Aug 2025,31 dni,C-check,Q4 2026
+OK-SQK,Smartwings,5,Sep 2025,60 dni,C-check,Q4 2026
+OO-JMP,TUI fly,10,Aug 2025,25 dni,C-check,Q4 2026
+TC-CQZ,Corendon,10,Nov 2025,30 dni,C-check,Q1 2027
+TC-CUA,Corendon,7,Oct 2025,38 dni,C-check,Q1 2027
+TC-CXY,Corendon,10,Nov 2025,33 dni,C-check,Q1 2027
+SP-EFF,Enter Air,9,Dec 2025,50 dni,C-check,Q1 2027
+PH-BDB,KLM,8,Sep 2025,36 dni,C-check,Q1 2027
+PH-BYZ,KLM,9,Sep 2025,36 dni,C-check,Q1 2027
+SP-LCS,LOT Polish,7,Nov 2025,36 dni,C-check,Q1 2027
+SP-LDH,LOT Polish,10,Nov 2025,32 dni,C-check,Q1 2027
+SP-LEH,LOT Polish,8,Sep 2025,26 dni,C-check,Q1 2027
+SP-LPE,LOT Polish,10,Sep 2025,33 dni,C-check,Q1 2027
+SP-LVN,LOT Polish,10,Nov 2025,33 dni,C-check,Q1 2027
+SP-LYF,LOT Polish,10,Oct 2025,28 dni,C-check,Q1 2027
+SP-LYG,LOT Polish,4,Oct 2025,43 dni,C-check,Q1 2027
+D-AJD,Lufthansa,10,Sep 2025,28 dni,C-check,Q1 2027
+D-AQO,Lufthansa,10,Oct 2025,26 dni,C-check,Q1 2027
+D-ASI,Lufthansa,6,Oct 2025,55 dni,C-check,Q1 2027
+D-AVT,Lufthansa,10,Sep 2025,37 dni,C-check,Q1 2027
+LN-NIC,Norwegian,10,Oct 2025,25 dni,C-check,Q1 2027
+EI-DCN,Ryanair,2,Oct 2025,32 dni,C-check,Q1 2027
+EI-DDM,Ryanair,7,Oct 2025,28 dni,C-check,Q1 2027
+EI-DGY,Ryanair,7,Sep 2025,32 dni,C-check,Q1 2027
+EI-DMZ,Ryanair,3,Dec 2025,35 dni,C-check,Q1 2027
+EI-DNW,Ryanair,8,Nov 2025,51 dni,C-check,Q1 2027
+EI-DPS,Ryanair,5,Nov 2025,39 dni,C-check,Q1 2027
+EI-DQM,Ryanair,8,Nov 2025,32 dni,C-check,Q1 2027
+OK-SBB,Smartwings,10,Oct 2025,26 dni,C-check,Q1 2027
+OK-SUF,Smartwings,10,Sep 2025,35 dni,C-check,Q1 2027
+TC-SHW,SunExpress,10,Sep 2025,40 dni,C-check,Q1 2027
+TC-SIH,SunExpress,10,Sep 2025,32 dni,C-check,Q1 2027
+TC-SLZ,SunExpress,9,Oct 2025,45 dni,C-check,Q1 2027
+TC-STE,SunExpress,7,Nov 2025,42 dni,C-check,Q1 2027
+OO-JBV,TUI fly,9,Oct 2025,40 dni,C-check,Q1 2027
+OO-JHF,TUI fly,10,Sep 2025,27 dni,C-check,Q1 2027
+OO-JID,TUI fly,6,Oct 2025,44 dni,C-check,Q1 2027
+OO-JOO,TUI fly,10,Oct 2025,49 dni,C-check,Q1 2027
+SP-EDG,Enter Air,7,Feb 2026,43 dni,C-check,Q2 2027
+SP-ENC,Enter Air,3,Dec 2025,37 dni,C-check,Q2 2027
+SP-EOA,Enter Air,9,Jan 2026,27 dni,C-check,Q2 2027
+SP-ETR,Enter Air,10,Dec 2025,40 dni,C-check,Q2 2027
+PH-BCK,KLM,7,Feb 2026,51 dni,C-check,Q2 2027
+PH-BDI,KLM,10,Feb 2026,29 dni,C-check,Q2 2027
+PH-BDZ,KLM,10,Feb 2026,45 dni,C-check,Q2 2027
+SP-LAE,LOT Polish,4,Jan 2026,31 dni,C-check,Q2 2027
+SP-LHF,LOT Polish,10,Feb 2026,28 dni,C-check,Q2 2027
+D-ADF,Lufthansa,7,Jan 2026,40 dni,C-check,Q2 2027
+D-ATU,Lufthansa,4,Jan 2026,38 dni,C-check,Q2 2027
+LN-NRV,Norwegian,9,Dec 2025,28 dni,C-check,Q2 2027
+EI-DBB,Ryanair,5,Feb 2026,45 dni,C-check,Q2 2027
+EI-DJG,Ryanair,10,Feb 2026,49 dni,C-check,Q2 2027
+EI-DNJ,Ryanair,8,Jan 2026,38 dni,C-check,Q2 2027
+OK-SDF,Smartwings,3,Feb 2026,39 dni,C-check,Q2 2027
+TC-SBB,SunExpress,9,Nov 2025,27 dni,C-check,Q2 2027
+TC-SEQ,SunExpress,8,Feb 2026,25 dni,C-check,Q2 2027
+OO-JVE,TUI fly,7,Feb 2026,36 dni,C-check,Q2 2027
+TC-CCU,Corendon,5,Mar 2026,43 dni,C-check,Q3 2027
+SP-EBL,Enter Air,8,Mar 2026,32 dni,C-check,Q3 2027
+SP-ECY,Enter Air,6,Feb 2026,29 dni,C-check,Q3 2027
+SP-ELM,Enter Air,8,May 2026,45 dni,C-check,Q3 2027
+SP-EVP,Enter Air,9,Feb 2026,32 dni,C-check,Q3 2027
+PH-BHE,KLM,10,Apr 2026,35 dni,C-check,Q3 2027
+SP-LMF,LOT Polish,10,Mar 2026,34 dni,C-check,Q3 2027
+SP-LYA,LOT Polish,3,Mar 2026,34 dni,C-check,Q3 2027
+SP-LZZ,LOT Polish,9,Apr 2026,29 dni,C-check,Q3 2027
+D-ADB,Lufthansa,3,May 2026,30 dni,C-check,Q3 2027
+D-AQQ,Lufthansa,5,May 2026,26 dni,C-check,Q3 2027
+D-AXR,Lufthansa,3,May 2026,27 dni,C-check,Q3 2027
+EI-DFO,Ryanair,5,May 2026,30 dni,C-check,Q3 2027
+EI-DPV,Ryanair,5,May 2026,39 dni,C-check,Q3 2027
+EI-DWY,Ryanair,10,Apr 2026,30 dni,C-check,Q3 2027
+EI-DYX,Ryanair,3,Mar 2026,37 dni,C-check,Q3 2027
+EI-DZD,Ryanair,8,May 2026,49 dni,C-check,Q3 2027
+TC-SDW,SunExpress,3,Apr 2026,27 dni,C-check,Q3 2027
+OO-JCY,TUI fly,7,May 2026,31 dni,C-check,Q3 2027
+PH-BDL,KLM,5,May 2026,26 dni,C-check,Q4 2027
+PH-BLS,KLM,3,May 2026,21 dni,C-check,Q4 2027
+PH-BUK,KLM,9,May 2026,23 dni,C-check,Q4 2027
+SP-LHW,LOT Polish,5,May 2026,6 dni,C-check,Q4 2027
+SP-LYZ,LOT Polish,5,May 2026,25 dni,C-check,Q4 2027
+D-AKX,Lufthansa,7,May 2026,7 dni,C-check,Q4 2027
+LN-NKW,Norwegian,8,May 2026,13 dni,C-check,Q4 2027
+EI-DEK,Ryanair,10,May 2026,14 dni,C-check,Q4 2027
+TC-SBE,SunExpress,5,May 2026,29 dni,C-check,Q4 2027
+TC-SXJ,SunExpress,5,May 2026,22 dni,C-check,Q4 2027
+OO-JBL,TUI fly,10,May 2026,6 dni,C-check,Q4 2027
+OO-JJS,TUI fly,5,May 2026,9 dni,C-check,Q4 2027
+OO-JSY,TUI fly,8,May 2026,11 dni,C-check,Q4 2027
