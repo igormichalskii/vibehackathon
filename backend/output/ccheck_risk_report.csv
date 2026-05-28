@@ -1,42 +1,1231 @@
-Part,System,ATA Chapter,Corrosion Risk,Damage Probability (%),Predicted Severity,Est. RUL (FH),Priority
-Main Landing Gear Right,Landing Gear,32,10,99.1,Major,11113,HIGH
-Fuel Boost Pump #1,Fuel System,28,6,98.1,Minor,4367,HIGH
-Flap Track Left,Flight Controls,27,9,97.6,Minor,9158,HIGH
-Wing Anti-Ice Valve Left,Ice Protection,30,8,97.3,Moderate,4471,HIGH
-Nose Tire,Landing Gear,32,2,96.9,Minor,0,HIGH
-Brake Assembly Right,Landing Gear,32,8,96.8,Minor,1058,HIGH
-Wiring Harness FWD,Electrical,24,8,95.9,Minor,12854,HIGH
-Hydraulic Lines System A,Hydraulic,29,7,95.1,Minor,7554,HIGH
-Main Battery,Electrical,24,6,92.4,Minor,2381,HIGH
-Brake Assembly Left,Landing Gear,32,8,92.4,Minor,1235,HIGH
-Generator #1,Electrical,24,5,92.4,Minor,4072,HIGH
-Fuselage Skin Forward,Structure,53,8,91.9,Moderate,32870,HIGH
-Engine #1 HP Compressor,Powerplant,72,7,91.4,Minor,7378,HIGH
-Main Landing Gear Left,Landing Gear,32,10,91.3,Minor,9405,HIGH
-Wing Spar Right,Structure,57,9,90.6,Minor,39327,HIGH
-Fuel Boost Pump #2,Fuel System,28,6,90.4,Minor,4994,HIGH
-Main Tire,Landing Gear,32,2,89.2,Minor,0,HIGH
-Pax Door Frame,Structure,53,7,86.7,None,25877,HIGH
-Wing Spar Left,Structure,57,9,85.9,Moderate,38431,HIGH
-Air Conditioning Pack Right,Air Conditioning,21,7,84.1,Moderate,6696,HIGH
-Nose Landing Gear,Landing Gear,32,9,83.6,Moderate,9077,HIGH
-Aileron Left,Flight Controls,27,7,82.8,Minor,4630,HIGH
-Engine #2 Fan Blades,Powerplant,72,6,82.7,Minor,10201,HIGH
-Pitot Tube Heater,Ice Protection,30,9,82.0,Major,3897,HIGH
-Fuselage Skin Aft,Structure,53,8,81.9,Minor,36313,HIGH
-Rudder,Flight Controls,27,6,79.4,Moderate,5945,HIGH
-Bleed Air Duct Left,Pneumatic,36,6,76.5,Moderate,5902,HIGH
-Flap Track Right,Flight Controls,27,9,75.7,Minor,10335,HIGH
-Fuel Tank Wing Left,Fuel System,28,9,75.5,Minor,10480,HIGH
-Potable Water Tank,Water/Waste,38,9,67.6,None,3220,MEDIUM
-Fuel Tank Wing Right,Fuel System,28,9,66.4,Minor,9529,MEDIUM
-Hydraulic Reservoir A,Hydraulic,29,5,65.6,None,8294,MEDIUM
-Air Conditioning Pack Left,Air Conditioning,21,7,65.3,Minor,7121,MEDIUM
-Elevator Left,Flight Controls,27,6,53.8,None,5927,MEDIUM
-Wing Leading Edge Left,Structure,57,7,48.7,None,6171,MEDIUM
-Aileron Right,Flight Controls,27,7,44.7,Minor,3316,MEDIUM
-Hydraulic Pump A,Hydraulic,29,5,32.4,None,5433,LOW
-Engine #1 HP Turbine,Powerplant,72,5,29.8,None,10975,LOW
-Cargo Door,Structure,53,8,22.8,None,34026,LOW
-Engine #1 Fan Blades,Powerplant,72,6,18.0,None,13749,LOW
-Escape Slide #1,Equipment,25,4,5.0,None,14494,LOW
+Tail Number,Operator,Part,System,ATA Chapter,Corrosion Risk,Damage Probability (%),Predicted Severity,Est. RUL (FH),Priority
+LN-NDS,Norwegian,Brake Assembly Left,Landing Gear,32,8,96.4,Minor,709,HIGH
+EI-DKD,Ryanair,Nose Landing Gear,Landing Gear,32,9,90.9,Minor,12471,HIGH
+PH-BYZ,KLM,Main Landing Gear Left,Landing Gear,32,10,90.7,Minor,7756,HIGH
+PH-BMX,KLM,Fuel Tank Wing Left,Fuel System,28,9,87.4,Minor,6848,HIGH
+LN-NAQ,Norwegian,Pitot Tube Heater,Ice Protection,30,9,87.4,Minor,2799,HIGH
+OO-JVN,TUI fly,Fuel Tank Wing Left,Fuel System,28,9,86.8,Minor,6322,HIGH
+OO-JBV,TUI fly,Wing Spar Left,Structure,57,9,85.8,Minor,30574,HIGH
+PH-BRO,KLM,Main Landing Gear Right,Landing Gear,32,10,85.0,Minor,14603,HIGH
+LN-NAQ,Norwegian,Fuselage Skin Aft,Structure,53,8,85.0,Minor,21407,HIGH
+PH-BMX,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,84.6,Minor,1796,HIGH
+PH-BKH,KLM,Main Battery,Electrical,24,6,84.6,Minor,813,HIGH
+PH-BDZ,KLM,Fuel Tank Wing Left,Fuel System,28,9,84.5,Minor,8332,HIGH
+OO-JVN,TUI fly,Main Landing Gear Right,Landing Gear,32,10,84.2,Minor,8223,HIGH
+LN-NLP,Norwegian,Aileron Left,Flight Controls,27,7,84.1,Minor,2466,HIGH
+LN-NIR,Norwegian,Main Landing Gear Right,Landing Gear,32,10,83.8,Minor,7642,HIGH
+EI-DGY,Ryanair,Fuselage Skin Forward,Structure,53,8,83.5,Minor,30197,HIGH
+PH-BKH,KLM,Flap Track Right,Flight Controls,27,9,83.2,Minor,7975,HIGH
+OO-JBB,TUI fly,Brake Assembly Right,Landing Gear,32,8,82.5,Minor,922,HIGH
+LN-NIR,Norwegian,Main Landing Gear Left,Landing Gear,32,10,82.4,Minor,5367,HIGH
+LN-NDS,Norwegian,Fuel Tank Wing Right,Fuel System,28,9,82.2,Minor,7551,HIGH
+PH-BDB,KLM,Wiring Harness FWD,Electrical,24,8,82.1,Minor,6108,HIGH
+LN-NKW,Norwegian,Aileron Left,Flight Controls,27,7,82.0,Major,999,HIGH
+LN-NAQ,Norwegian,Nose Landing Gear,Landing Gear,32,9,82.0,Minor,7118,HIGH
+OO-JBV,TUI fly,Pitot Tube Heater,Ice Protection,30,9,81.7,Minor,2626,HIGH
+PH-BYZ,KLM,Flap Track Left,Flight Controls,27,9,81.4,Minor,9686,HIGH
+EI-DMY,Ryanair,Main Landing Gear Left,Landing Gear,32,10,81.3,Moderate,3869,HIGH
+OO-JHF,TUI fly,Fuel Tank Wing Right,Fuel System,28,9,81.3,Minor,8236,HIGH
+LN-NLP,Norwegian,Flap Track Right,Flight Controls,27,9,81.1,Minor,8191,HIGH
+PH-BZZ,KLM,Fuel Tank Wing Left,Fuel System,28,9,81.1,Minor,8327,HIGH
+PH-BPX,KLM,Main Landing Gear Right,Landing Gear,32,10,80.9,Minor,13195,HIGH
+PH-BPX,KLM,Aileron Left,Flight Controls,27,7,80.7,Moderate,2576,HIGH
+OO-JVB,TUI fly,Main Landing Gear Left,Landing Gear,32,10,80.5,Minor,6872,HIGH
+OO-JHF,TUI fly,Potable Water Tank,Water/Waste,38,9,80.5,Minor,1999,HIGH
+OO-JBV,TUI fly,Flap Track Left,Flight Controls,27,9,80.5,Minor,9074,HIGH
+OO-JHF,TUI fly,Pitot Tube Heater,Ice Protection,30,9,80.5,Minor,2007,HIGH
+LN-NKW,Norwegian,Fuel Tank Wing Left,Fuel System,28,9,80.5,Minor,10714,HIGH
+LN-NAQ,Norwegian,Wing Spar Left,Structure,57,9,80.4,Minor,25914,HIGH
+PH-BUK,KLM,Fuel Tank Wing Right,Fuel System,28,9,80.3,Minor,6623,HIGH
+OO-JBB,TUI fly,Air Conditioning Pack Left,Air Conditioning,21,7,80.3,Minor,4568,HIGH
+PH-BDZ,KLM,Brake Assembly Left,Landing Gear,32,8,80.0,Minor,1926,HIGH
+OO-JBB,TUI fly,Flap Track Left,Flight Controls,27,9,80.0,Minor,7854,HIGH
+PH-BZZ,KLM,Brake Assembly Left,Landing Gear,32,8,80.0,Minor,2161,HIGH
+PH-BMX,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,79.7,Minor,4357,HIGH
+PH-BMX,KLM,Main Landing Gear Left,Landing Gear,32,10,79.3,Minor,2072,HIGH
+PH-BDB,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,79.2,Minor,7051,HIGH
+PH-BRO,KLM,Hydraulic Pump A,Hydraulic,29,5,79.1,Moderate,3788,HIGH
+PH-BMX,KLM,Aileron Right,Flight Controls,27,7,79.1,Minor,4275,HIGH
+EI-DDM,Ryanair,Brake Assembly Right,Landing Gear,32,8,79.1,Minor,930,HIGH
+LN-NLP,Norwegian,Air Conditioning Pack Right,Air Conditioning,21,7,78.9,Minor,3889,HIGH
+OO-JVB,TUI fly,Pitot Tube Heater,Ice Protection,30,9,78.9,Minor,3254,HIGH
+LN-NAQ,Norwegian,Fuselage Skin Forward,Structure,53,8,78.8,Minor,32519,HIGH
+EI-DWF,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,78.7,Minor,9487,HIGH
+LN-NIR,Norwegian,Air Conditioning Pack Right,Air Conditioning,21,7,78.7,Minor,6634,HIGH
+PH-BMX,KLM,Aileron Left,Flight Controls,27,7,78.6,Minor,5914,HIGH
+PH-BYZ,KLM,Main Landing Gear Right,Landing Gear,32,10,78.5,Minor,8099,HIGH
+OO-JBB,TUI fly,Wing Spar Right,Structure,57,9,78.5,Minor,25753,HIGH
+EI-DGY,Ryanair,Potable Water Tank,Water/Waste,38,9,78.3,Minor,5325,HIGH
+OO-JBB,TUI fly,Potable Water Tank,Water/Waste,38,9,78.3,Minor,4118,HIGH
+PH-BDB,KLM,Main Landing Gear Left,Landing Gear,32,10,78.0,Minor,9045,HIGH
+PH-BDZ,KLM,Wing Spar Right,Structure,57,9,77.9,Moderate,23695,HIGH
+EI-DLY,Ryanair,Pitot Tube Heater,Ice Protection,30,9,77.9,Minor,1700,HIGH
+PH-BYZ,KLM,Aileron Left,Flight Controls,27,7,77.9,Minor,4594,HIGH
+EI-DWF,Ryanair,Wing Spar Left,Structure,57,9,77.8,Minor,32352,HIGH
+OO-JVB,TUI fly,Elevator Left,Flight Controls,27,6,77.7,Minor,4880,HIGH
+LN-NDS,Norwegian,Flap Track Left,Flight Controls,27,9,77.7,Minor,10163,HIGH
+OO-JHF,TUI fly,Cargo Door,Structure,53,8,77.7,Minor,31160,HIGH
+EI-DGC,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,77.5,Minor,6162,HIGH
+EI-DKD,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,77.5,Minor,8493,HIGH
+PH-BDT,KLM,Brake Assembly Left,Landing Gear,32,8,77.4,Minor,2528,HIGH
+OO-JHF,TUI fly,Air Conditioning Pack Left,Air Conditioning,21,7,77.4,Minor,3404,HIGH
+EI-DGY,Ryanair,Brake Assembly Right,Landing Gear,32,8,77.4,Minor,306,HIGH
+OO-JHF,TUI fly,Flap Track Right,Flight Controls,27,9,77.4,Minor,12579,HIGH
+EI-DNJ,Ryanair,Brake Assembly Left,Landing Gear,32,8,77.4,Minor,18,HIGH
+EI-DGY,Ryanair,Brake Assembly Left,Landing Gear,32,8,77.4,Minor,627,HIGH
+LN-NKW,Norwegian,Brake Assembly Right,Landing Gear,32,8,77.4,Moderate,382,HIGH
+LN-NLP,Norwegian,Wing Anti-Ice Valve Left,Ice Protection,30,8,77.4,Minor,3360,HIGH
+PH-BRO,KLM,Fuel Tank Wing Right,Fuel System,28,9,77.4,Minor,8130,HIGH
+LN-NDS,Norwegian,Pax Door Frame,Structure,53,7,77.3,Minor,17622,HIGH
+EI-DNJ,Ryanair,Potable Water Tank,Water/Waste,38,9,77.3,Minor,8620,HIGH
+LN-NLP,Norwegian,Fuel Tank Wing Left,Fuel System,28,9,77.3,Minor,9440,HIGH
+OO-JBB,TUI fly,Flap Track Right,Flight Controls,27,9,77.3,Moderate,5377,HIGH
+OO-JBB,TUI fly,Fuel Tank Wing Left,Fuel System,28,9,77.0,Moderate,9400,HIGH
+LN-NAQ,Norwegian,Fuel Tank Wing Left,Fuel System,28,9,77.0,Moderate,7492,HIGH
+OO-JBV,TUI fly,Main Tire,Landing Gear,32,2,77.0,Minor,609,HIGH
+PH-BDZ,KLM,Aileron Left,Flight Controls,27,7,77.0,Minor,5978,HIGH
+PH-BKH,KLM,Wing Spar Right,Structure,57,9,76.9,Minor,34076,HIGH
+PH-BMX,KLM,Hydraulic Lines System A,Hydraulic,29,7,76.8,Minor,7388,HIGH
+EI-DKD,Ryanair,Wing Leading Edge Left,Structure,57,7,76.8,Minor,4414,HIGH
+PH-BDZ,KLM,Wing Spar Left,Structure,57,9,76.7,Moderate,21650,HIGH
+EI-DKD,Ryanair,Brake Assembly Right,Landing Gear,32,8,76.7,Minor,0,HIGH
+PH-BRO,KLM,Bleed Air Duct Left,Pneumatic,36,6,76.7,None,2378,HIGH
+OO-JBB,TUI fly,Cargo Door,Structure,53,8,76.7,Minor,14358,HIGH
+PH-BUK,KLM,Hydraulic Reservoir A,Hydraulic,29,5,76.7,Minor,5977,HIGH
+LN-NDS,Norwegian,Hydraulic Lines System A,Hydraulic,29,7,76.5,Minor,6411,HIGH
+EI-DDM,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,76.4,Minor,9129,HIGH
+OO-JBB,TUI fly,Brake Assembly Left,Landing Gear,32,8,76.3,Minor,481,HIGH
+OO-JHF,TUI fly,Wing Anti-Ice Valve Left,Ice Protection,30,8,76.3,Minor,1885,HIGH
+PH-BDZ,KLM,Elevator Left,Flight Controls,27,6,76.3,Minor,4584,HIGH
+PH-BDB,KLM,Fuel Boost Pump #1,Fuel System,28,6,76.3,Minor,3737,HIGH
+PH-BUK,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,76.2,Minor,5515,HIGH
+LN-NIR,Norwegian,Bleed Air Duct Left,Pneumatic,36,6,76.1,Minor,5789,HIGH
+PH-BDB,KLM,Fuselage Skin Aft,Structure,53,8,76.1,Minor,28114,HIGH
+PH-BPX,KLM,Engine #1 Fan Blades,Powerplant,72,6,76.1,Minor,11442,HIGH
+EI-DMY,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,76.1,Minor,8170,HIGH
+EI-DGY,Ryanair,Wing Spar Left,Structure,57,9,76.1,Minor,31823,HIGH
+EI-DDM,Ryanair,Potable Water Tank,Water/Waste,38,9,76.1,Minor,5909,HIGH
+EI-DKD,Ryanair,Potable Water Tank,Water/Waste,38,9,76.1,Moderate,1926,HIGH
+LN-NKW,Norwegian,Wiring Harness FWD,Electrical,24,8,76.0,Minor,5910,HIGH
+EI-DDM,Ryanair,Flap Track Right,Flight Controls,27,9,75.9,Minor,9598,HIGH
+PH-BPX,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,75.8,Minor,7057,HIGH
+EI-DKD,Ryanair,Wing Spar Left,Structure,57,9,75.7,Minor,36034,HIGH
+PH-BYZ,KLM,Potable Water Tank,Water/Waste,38,9,75.7,Minor,9401,HIGH
+PH-BDZ,KLM,Wing Leading Edge Left,Structure,57,7,75.7,Minor,5279,HIGH
+OO-JBB,TUI fly,Fuselage Skin Aft,Structure,53,8,75.7,Minor,24023,HIGH
+LN-NDS,Norwegian,Aileron Right,Flight Controls,27,7,75.6,Minor,2588,HIGH
+PH-BKH,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,75.6,Minor,3946,HIGH
+EI-DWF,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,75.5,Minor,6210,HIGH
+PH-BZZ,KLM,Main Landing Gear Left,Landing Gear,32,10,75.5,Minor,16815,HIGH
+LN-NIR,Norwegian,Nose Landing Gear,Landing Gear,32,9,75.5,Moderate,8116,HIGH
+PH-BUK,KLM,Brake Assembly Right,Landing Gear,32,8,75.5,Minor,1117,HIGH
+EI-DKD,Ryanair,Brake Assembly Left,Landing Gear,32,8,75.5,Minor,0,HIGH
+EI-DKD,Ryanair,Fuselage Skin Forward,Structure,53,8,75.5,Minor,28711,HIGH
+EI-DUN,Ryanair,Brake Assembly Right,Landing Gear,32,8,75.5,Minor,217,HIGH
+EI-DVJ,Ryanair,Pitot Tube Heater,Ice Protection,30,9,75.5,Minor,3737,HIGH
+OO-JBB,TUI fly,Fuel Tank Wing Right,Fuel System,28,9,75.5,Minor,2433,HIGH
+OO-JVN,TUI fly,Hydraulic Lines System A,Hydraulic,29,7,75.5,Moderate,5523,HIGH
+OO-JHF,TUI fly,Nose Landing Gear,Landing Gear,32,9,75.5,Minor,15254,HIGH
+EI-DUN,Ryanair,Main Landing Gear Left,Landing Gear,32,10,75.5,Minor,4830,HIGH
+EI-DUN,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,75.5,Minor,10715,HIGH
+OO-JHF,TUI fly,Wing Spar Right,Structure,57,9,75.5,Minor,37665,HIGH
+PH-BZZ,KLM,Fuselage Skin Forward,Structure,53,8,75.5,Moderate,34575,HIGH
+LN-NKW,Norwegian,Hydraulic Lines System A,Hydraulic,29,7,75.5,Minor,7228,HIGH
+PH-BRO,KLM,Fuel Tank Wing Left,Fuel System,28,9,75.5,Minor,9787,HIGH
+OO-JBB,TUI fly,Wiring Harness FWD,Electrical,24,8,75.3,Minor,12994,HIGH
+OO-JVB,TUI fly,Cargo Door,Structure,53,8,75.3,None,15700,HIGH
+EI-DMY,Ryanair,Pax Door Frame,Structure,53,7,75.2,Minor,24935,HIGH
+PH-BYZ,KLM,Brake Assembly Right,Landing Gear,32,8,75.1,Minor,340,HIGH
+EI-DGY,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,75.1,Moderate,6924,HIGH
+PH-BPX,KLM,Nose Landing Gear,Landing Gear,32,9,75.1,Minor,14213,HIGH
+LN-NDS,Norwegian,Wing Spar Right,Structure,57,9,75.1,Minor,19107,HIGH
+LN-NAQ,Norwegian,Wing Leading Edge Left,Structure,57,7,75.1,None,678,HIGH
+EI-DLY,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,75.0,Minor,8476,HIGH
+PH-BUK,KLM,Fuselage Skin Forward,Structure,53,8,75.0,Minor,29704,HIGH
+PH-BRO,KLM,Potable Water Tank,Water/Waste,38,9,74.7,Minor,6904,HIGH
+LN-NIR,Norwegian,Fuel Tank Wing Right,Fuel System,28,9,74.6,Minor,10978,HIGH
+PH-BMX,KLM,Brake Assembly Left,Landing Gear,32,8,74.6,Minor,1333,HIGH
+OO-JVN,TUI fly,Wing Spar Left,Structure,57,9,74.6,Moderate,26204,HIGH
+PH-BPX,KLM,Fuselage Skin Aft,Structure,53,8,74.6,Minor,44639,HIGH
+LN-NIR,Norwegian,Wing Anti-Ice Valve Left,Ice Protection,30,8,74.5,Minor,1436,HIGH
+OO-JBB,TUI fly,Hydraulic Pump A,Hydraulic,29,5,74.5,Minor,5342,HIGH
+LN-NKW,Norwegian,Air Conditioning Pack Right,Air Conditioning,21,7,74.5,Minor,5628,HIGH
+OO-JBV,TUI fly,Fuel Tank Wing Left,Fuel System,28,9,74.5,Minor,11277,HIGH
+OO-JVN,TUI fly,Fuselage Skin Forward,Structure,53,8,74.5,Moderate,13499,HIGH
+LN-NAQ,Norwegian,Potable Water Tank,Water/Waste,38,9,74.5,Minor,4310,HIGH
+EI-DLY,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,74.5,Minor,2470,HIGH
+EI-DDM,Ryanair,Main Landing Gear Right,Landing Gear,32,10,74.5,Minor,9217,HIGH
+LN-NDS,Norwegian,Main Landing Gear Right,Landing Gear,32,10,74.5,Minor,9072,HIGH
+OO-JBB,TUI fly,Main Landing Gear Right,Landing Gear,32,10,74.5,Minor,10066,HIGH
+EI-DUN,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,74.5,Minor,7105,HIGH
+PH-BRO,KLM,Engine #2 Fan Blades,Powerplant,72,6,74.4,Minor,9597,HIGH
+PH-BUK,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,74.4,Minor,2110,HIGH
+OO-JBB,TUI fly,Aileron Right,Flight Controls,27,7,74.1,Minor,4478,HIGH
+EI-DGC,Ryanair,Aileron Left,Flight Controls,27,7,74.0,Minor,3023,HIGH
+PH-BUK,KLM,Cargo Door,Structure,53,8,74.0,Minor,31264,HIGH
+EI-DVJ,Ryanair,Wing Leading Edge Left,Structure,57,7,74.0,Minor,5410,HIGH
+LN-NKW,Norwegian,Potable Water Tank,Water/Waste,38,9,74.0,Minor,6524,HIGH
+PH-BDZ,KLM,Aileron Right,Flight Controls,27,7,74.0,Minor,4752,HIGH
+PH-BZZ,KLM,Main Battery,Electrical,24,6,73.9,Minor,2874,HIGH
+EI-DUN,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,73.9,Minor,8214,HIGH
+PH-BDZ,KLM,Main Landing Gear Right,Landing Gear,32,10,73.9,Minor,8343,HIGH
+PH-BPX,KLM,Nose Tire,Landing Gear,32,2,73.9,Minor,572,HIGH
+PH-BPX,KLM,Hydraulic Reservoir A,Hydraulic,29,5,73.9,Minor,10105,HIGH
+OO-JBB,TUI fly,Fuel Boost Pump #1,Fuel System,28,6,73.5,Minor,2413,HIGH
+EI-DNJ,Ryanair,Nose Landing Gear,Landing Gear,32,9,73.5,Minor,8195,HIGH
+PH-BRO,KLM,Fuel Boost Pump #2,Fuel System,28,6,73.5,Minor,2542,HIGH
+LN-NLP,Norwegian,Wing Leading Edge Left,Structure,57,7,73.5,Minor,9103,HIGH
+EI-DDM,Ryanair,Pitot Tube Heater,Ice Protection,30,9,73.5,Minor,4653,HIGH
+PH-BPX,KLM,Engine #2 Fan Blades,Powerplant,72,6,73.4,Minor,10952,HIGH
+EI-DLY,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,73.4,Minor,12651,HIGH
+PH-BYZ,KLM,Wiring Harness FWD,Electrical,24,8,73.4,Minor,6427,HIGH
+OO-JBB,TUI fly,Engine #1 HP Compressor,Powerplant,72,7,73.3,Minor,10831,HIGH
+PH-BYZ,KLM,Main Battery,Electrical,24,6,73.3,Minor,825,HIGH
+PH-BRO,KLM,Wing Spar Left,Structure,57,9,73.3,Minor,15850,HIGH
+PH-BYZ,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,73.3,Minor,3330,HIGH
+EI-DUN,Ryanair,Aileron Left,Flight Controls,27,7,73.3,Minor,4717,HIGH
+PH-BPX,KLM,Pitot Tube Heater,Ice Protection,30,9,73.3,Minor,2473,HIGH
+OO-JVB,TUI fly,Fuel Tank Wing Right,Fuel System,28,9,73.3,Minor,9459,HIGH
+PH-BRO,KLM,Flap Track Left,Flight Controls,27,9,73.3,Minor,8920,HIGH
+EI-DGY,Ryanair,Flap Track Left,Flight Controls,27,9,73.3,Minor,6389,HIGH
+PH-BMX,KLM,Main Landing Gear Right,Landing Gear,32,10,73.1,Minor,10028,HIGH
+PH-BKH,KLM,Fuel Tank Wing Right,Fuel System,28,9,73.1,Moderate,7292,HIGH
+PH-BPX,KLM,Main Tire,Landing Gear,32,2,73.0,Minor,0,HIGH
+OO-JBB,TUI fly,Fuselage Skin Forward,Structure,53,8,72.9,Minor,34435,HIGH
+OO-JVN,TUI fly,Pax Door Frame,Structure,53,7,72.9,None,17193,HIGH
+OO-JVB,TUI fly,Air Conditioning Pack Right,Air Conditioning,21,7,72.9,Minor,4714,HIGH
+LN-NLP,Norwegian,Engine #1 Fan Blades,Powerplant,72,6,72.9,Minor,9973,HIGH
+PH-BRO,KLM,Main Landing Gear Left,Landing Gear,32,10,72.9,Minor,8689,HIGH
+LN-NDS,Norwegian,Fuselage Skin Forward,Structure,53,8,72.9,Minor,34673,HIGH
+LN-NDS,Norwegian,Main Tire,Landing Gear,32,2,72.9,Minor,0,HIGH
+EI-DKD,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,72.9,Minor,11732,HIGH
+EI-DGY,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,72.8,Minor,4441,HIGH
+OO-JVB,TUI fly,Fuselage Skin Forward,Structure,53,8,72.8,Minor,16720,HIGH
+LN-NAQ,Norwegian,Aileron Left,Flight Controls,27,7,72.8,Minor,4391,HIGH
+OO-JVB,TUI fly,Pax Door Frame,Structure,53,7,72.8,Minor,12964,HIGH
+PH-BDZ,KLM,Main Landing Gear Left,Landing Gear,32,10,72.8,Minor,9101,HIGH
+OO-JBV,TUI fly,Potable Water Tank,Water/Waste,38,9,72.8,Minor,9963,HIGH
+PH-BDT,KLM,Nose Landing Gear,Landing Gear,32,9,72.7,Minor,13412,HIGH
+EI-DGC,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,72.7,Minor,10843,HIGH
+PH-BYZ,KLM,Cargo Door,Structure,53,8,72.7,Minor,18839,HIGH
+EI-DWF,Ryanair,Cargo Door,Structure,53,8,72.7,Minor,10826,HIGH
+PH-BUK,KLM,Fuel Tank Wing Left,Fuel System,28,9,72.7,Minor,9340,HIGH
+LN-NKW,Norwegian,Main Battery,Electrical,24,6,72.7,Minor,1957,HIGH
+EI-DWF,Ryanair,Aileron Left,Flight Controls,27,7,72.7,Minor,2300,HIGH
+PH-BKH,KLM,Flap Track Left,Flight Controls,27,9,72.7,Moderate,10065,HIGH
+PH-BMX,KLM,Flap Track Right,Flight Controls,27,9,72.7,Minor,10601,HIGH
+LN-NLP,Norwegian,Nose Landing Gear,Landing Gear,32,9,72.7,Minor,7518,HIGH
+EI-DNJ,Ryanair,Wiring Harness FWD,Electrical,24,8,72.7,Moderate,9705,HIGH
+PH-BDZ,KLM,Fuselage Skin Aft,Structure,53,8,72.7,Minor,37414,HIGH
+OO-JBV,TUI fly,Brake Assembly Right,Landing Gear,32,8,72.7,Minor,3661,HIGH
+PH-BDB,KLM,Brake Assembly Left,Landing Gear,32,8,72.7,Minor,367,HIGH
+OO-JHF,TUI fly,Nose Tire,Landing Gear,32,2,72.7,Moderate,0,HIGH
+OO-JHF,TUI fly,Fuselage Skin Aft,Structure,53,8,72.7,Minor,33428,HIGH
+EI-DGY,Ryanair,Aileron Right,Flight Controls,27,7,72.7,Minor,4305,HIGH
+OO-JVN,TUI fly,Brake Assembly Right,Landing Gear,32,8,72.7,Minor,1034,HIGH
+EI-DMY,Ryanair,Aileron Right,Flight Controls,27,7,72.7,Minor,4615,HIGH
+PH-BDB,KLM,Flap Track Right,Flight Controls,27,9,72.7,Minor,9424,HIGH
+OO-JVN,TUI fly,Main Landing Gear Left,Landing Gear,32,10,72.7,Minor,8538,HIGH
+LN-NIR,Norwegian,Fuselage Skin Aft,Structure,53,8,72.7,Minor,41946,HIGH
+PH-BMX,KLM,Wing Spar Left,Structure,57,9,72.7,Minor,20047,HIGH
+EI-DKD,Ryanair,Pitot Tube Heater,Ice Protection,30,9,72.7,Minor,1950,HIGH
+EI-DGY,Ryanair,Wing Leading Edge Left,Structure,57,7,72.7,Minor,8402,HIGH
+PH-BYZ,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,72.7,Minor,4572,HIGH
+LN-NDS,Norwegian,Flap Track Right,Flight Controls,27,9,72.5,Minor,8030,HIGH
+EI-DGY,Ryanair,Cargo Door,Structure,53,8,72.5,Minor,30667,HIGH
+PH-BPX,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,72.5,Moderate,5649,HIGH
+LN-NIR,Norwegian,Cargo Door,Structure,53,8,72.5,Moderate,34311,HIGH
+PH-BKH,KLM,Wing Leading Edge Left,Structure,57,7,72.5,Minor,4910,HIGH
+PH-BYZ,KLM,Hydraulic Pump A,Hydraulic,29,5,72.4,Minor,5031,HIGH
+PH-BUK,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,72.4,Minor,2321,HIGH
+LN-NIR,Norwegian,Flap Track Right,Flight Controls,27,9,72.4,Minor,10985,HIGH
+PH-BDB,KLM,Hydraulic Pump A,Hydraulic,29,5,72.3,Moderate,4488,HIGH
+EI-DLY,Ryanair,Flap Track Right,Flight Controls,27,9,72.3,Minor,5657,HIGH
+EI-DUN,Ryanair,Wiring Harness FWD,Electrical,24,8,72.3,Minor,16813,HIGH
+PH-BKH,KLM,Aileron Right,Flight Controls,27,7,72.2,Minor,4510,HIGH
+OO-JVB,TUI fly,Wing Spar Left,Structure,57,9,72.2,Minor,26369,HIGH
+EI-DMY,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,72.2,Minor,10707,HIGH
+PH-BPX,KLM,Wiring Harness FWD,Electrical,24,8,72.2,Minor,14172,HIGH
+OO-JVB,TUI fly,Wing Anti-Ice Valve Left,Ice Protection,30,8,72.2,Minor,4123,HIGH
+EI-DMY,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,72.2,Minor,9889,HIGH
+OO-JVB,TUI fly,Air Conditioning Pack Left,Air Conditioning,21,7,72.2,Minor,4441,HIGH
+EI-DUN,Ryanair,Wing Leading Edge Left,Structure,57,7,72.2,Minor,7597,HIGH
+EI-DGC,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,72.2,Minor,11967,HIGH
+PH-BUK,KLM,Brake Assembly Left,Landing Gear,32,8,72.2,Minor,1185,HIGH
+EI-DDM,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,72.2,None,5480,HIGH
+LN-NLP,Norwegian,Aileron Right,Flight Controls,27,7,72.2,Minor,2799,HIGH
+LN-NKW,Norwegian,Engine #2 Fan Blades,Powerplant,72,6,72.2,Minor,7770,HIGH
+LN-NLP,Norwegian,Wing Spar Right,Structure,57,9,72.2,Minor,34793,HIGH
+EI-DVJ,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,72.2,Minor,8806,HIGH
+EI-DWF,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,72.2,Minor,7409,HIGH
+PH-BKH,KLM,Pax Door Frame,Structure,53,7,72.2,Moderate,17236,HIGH
+OO-JBV,TUI fly,Aileron Right,Flight Controls,27,7,72.2,Minor,3922,HIGH
+OO-JBV,TUI fly,Cargo Door,Structure,53,8,72.2,Minor,37522,HIGH
+PH-BDT,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,72.2,Minor,4412,HIGH
+PH-BDZ,KLM,Hydraulic Lines System A,Hydraulic,29,7,72.2,Minor,6699,HIGH
+PH-BDZ,KLM,Flap Track Left,Flight Controls,27,9,72.2,Minor,10461,HIGH
+EI-DUN,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,72.2,Moderate,6225,HIGH
+EI-DLY,Ryanair,Aileron Left,Flight Controls,27,7,72.2,Moderate,4445,HIGH
+PH-BPX,KLM,Pax Door Frame,Structure,53,7,72.2,Minor,23225,HIGH
+OO-JBV,TUI fly,Main Landing Gear Left,Landing Gear,32,10,72.2,Minor,9951,HIGH
+PH-BZZ,KLM,Pitot Tube Heater,Ice Protection,30,9,72.2,Minor,3210,HIGH
+OO-JVB,TUI fly,Hydraulic Lines System A,Hydraulic,29,7,72.2,Minor,7475,HIGH
+EI-DNJ,Ryanair,Aileron Left,Flight Controls,27,7,72.2,Minor,3135,HIGH
+LN-NIR,Norwegian,Potable Water Tank,Water/Waste,38,9,72.2,Minor,9447,HIGH
+PH-BDB,KLM,Hydraulic Lines System A,Hydraulic,29,7,72.2,Minor,9877,HIGH
+EI-DDM,Ryanair,Main Landing Gear Left,Landing Gear,32,10,72.1,Minor,10673,HIGH
+EI-DKD,Ryanair,Wiring Harness FWD,Electrical,24,8,72.1,Minor,7242,HIGH
+PH-BDZ,KLM,Hydraulic Reservoir A,Hydraulic,29,5,72.0,Minor,8751,HIGH
+PH-BYZ,KLM,Fuselage Skin Forward,Structure,53,8,71.9,Moderate,15471,HIGH
+EI-DMY,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,71.9,Minor,3623,HIGH
+LN-NAQ,Norwegian,Main Landing Gear Left,Landing Gear,32,10,71.9,Minor,10478,HIGH
+LN-NAQ,Norwegian,Main Battery,Electrical,24,6,71.9,Minor,2323,HIGH
+LN-NAQ,Norwegian,Brake Assembly Left,Landing Gear,32,8,71.9,Minor,1424,HIGH
+OO-JBV,TUI fly,Engine #1 HP Turbine,Powerplant,72,5,71.8,Minor,7320,HIGH
+EI-DUN,Ryanair,Aileron Right,Flight Controls,27,7,71.8,Minor,4830,HIGH
+OO-JBB,TUI fly,Hydraulic Lines System A,Hydraulic,29,7,71.8,Minor,7735,HIGH
+PH-BUK,KLM,Engine #1 HP Compressor,Powerplant,72,7,71.8,Minor,8393,HIGH
+OO-JBB,TUI fly,Wing Spar Left,Structure,57,9,71.8,Minor,45864,HIGH
+EI-DGY,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,71.8,Minor,7476,HIGH
+EI-DGY,Ryanair,Main Landing Gear Right,Landing Gear,32,10,71.8,Minor,9887,HIGH
+OO-JHF,TUI fly,Aileron Right,Flight Controls,27,7,71.8,Minor,2981,HIGH
+OO-JVB,TUI fly,Wiring Harness FWD,Electrical,24,8,71.8,Minor,13087,HIGH
+EI-DDM,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,71.8,Minor,6919,HIGH
+PH-BMX,KLM,Hydraulic Pump A,Hydraulic,29,5,71.8,Minor,4566,HIGH
+OO-JVN,TUI fly,Hydraulic Reservoir A,Hydraulic,29,5,71.8,Minor,8137,HIGH
+OO-JHF,TUI fly,Wing Spar Left,Structure,57,9,71.8,Minor,30938,HIGH
+PH-BPX,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,71.8,Minor,7154,HIGH
+EI-DWF,Ryanair,Main Landing Gear Left,Landing Gear,32,10,71.8,Minor,7526,HIGH
+LN-NDS,Norwegian,Pitot Tube Heater,Ice Protection,30,9,71.8,Minor,935,HIGH
+OO-JBB,TUI fly,Aileron Left,Flight Controls,27,7,71.8,Moderate,3371,HIGH
+PH-BKH,KLM,Engine #1 HP Turbine,Powerplant,72,5,71.8,Minor,7250,HIGH
+PH-BDT,KLM,Fuel Tank Wing Left,Fuel System,28,9,71.8,Minor,8483,HIGH
+PH-BKH,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,71.8,Minor,7139,HIGH
+OO-JBV,TUI fly,Fuselage Skin Aft,Structure,53,8,71.8,Minor,37016,HIGH
+LN-NIR,Norwegian,Aileron Left,Flight Controls,27,7,71.8,Minor,4787,HIGH
+PH-BZZ,KLM,Rudder,Flight Controls,27,6,71.7,Minor,7269,HIGH
+EI-DNJ,Ryanair,Flap Track Right,Flight Controls,27,9,71.7,Minor,12635,HIGH
+EI-DMY,Ryanair,Flap Track Left,Flight Controls,27,9,71.7,Minor,8435,HIGH
+EI-DLY,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,71.7,Minor,7638,HIGH
+OO-JBB,TUI fly,Rudder,Flight Controls,27,6,71.7,Minor,5466,HIGH
+OO-JBV,TUI fly,Flap Track Right,Flight Controls,27,9,71.7,Minor,7723,HIGH
+LN-NIR,Norwegian,Hydraulic Lines System A,Hydraulic,29,7,71.7,Minor,10252,HIGH
+OO-JVN,TUI fly,Air Conditioning Pack Right,Air Conditioning,21,7,71.7,Minor,5228,HIGH
+OO-JHF,TUI fly,Hydraulic Lines System A,Hydraulic,29,7,71.7,Minor,7641,HIGH
+OO-JHF,TUI fly,Bleed Air Duct Left,Pneumatic,36,6,71.7,Moderate,5044,HIGH
+PH-BPX,KLM,Fuel Tank Wing Right,Fuel System,28,9,71.7,Minor,8147,HIGH
+EI-DGC,Ryanair,Elevator Left,Flight Controls,27,6,71.7,Minor,4723,HIGH
+PH-BZZ,KLM,Main Tire,Landing Gear,32,2,71.7,Minor,0,HIGH
+EI-DKD,Ryanair,Wing Spar Right,Structure,57,9,71.7,Minor,23916,HIGH
+EI-DKD,Ryanair,Cargo Door,Structure,53,8,71.7,Moderate,21203,HIGH
+LN-NKW,Norwegian,Flap Track Left,Flight Controls,27,9,71.7,Minor,10153,HIGH
+PH-BYZ,KLM,Pax Door Frame,Structure,53,7,71.7,Minor,16529,HIGH
+EI-DWF,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,71.7,Minor,5942,HIGH
+LN-NLP,Norwegian,Pitot Tube Heater,Ice Protection,30,9,71.7,Minor,2086,HIGH
+OO-JBV,TUI fly,Pax Door Frame,Structure,53,7,71.7,Minor,28782,HIGH
+OO-JBV,TUI fly,Aileron Left,Flight Controls,27,7,71.7,Minor,6436,HIGH
+OO-JBV,TUI fly,Wiring Harness FWD,Electrical,24,8,71.7,Minor,10615,HIGH
+EI-DKD,Ryanair,Aileron Right,Flight Controls,27,7,71.7,Minor,5234,HIGH
+PH-BDT,KLM,Elevator Left,Flight Controls,27,6,71.7,Minor,8758,HIGH
+OO-JBV,TUI fly,Rudder,Flight Controls,27,6,71.7,Minor,6041,HIGH
+EI-DUN,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,71.7,Minor,3596,HIGH
+EI-DVJ,Ryanair,Wing Spar Left,Structure,57,9,71.7,Minor,30145,HIGH
+LN-NAQ,Norwegian,Pax Door Frame,Structure,53,7,71.6,Minor,18596,HIGH
+OO-JBV,TUI fly,Wing Spar Right,Structure,57,9,71.6,Minor,42540,HIGH
+EI-DNJ,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,71.5,Minor,4896,HIGH
+EI-DKD,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,71.5,Minor,8854,HIGH
+LN-NDS,Norwegian,Fuselage Skin Aft,Structure,53,8,71.5,Minor,32774,HIGH
+LN-NAQ,Norwegian,Engine #2 Fan Blades,Powerplant,72,6,71.5,Minor,6348,HIGH
+EI-DUN,Ryanair,Wing Spar Left,Structure,57,9,71.5,Minor,13773,HIGH
+PH-BDZ,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,71.3,Minor,5193,HIGH
+LN-NLP,Norwegian,Wing Spar Left,Structure,57,9,71.3,Minor,44292,HIGH
+LN-NIR,Norwegian,Fuel Tank Wing Left,Fuel System,28,9,71.3,Minor,10302,HIGH
+EI-DWF,Ryanair,Potable Water Tank,Water/Waste,38,9,71.2,Minor,11180,HIGH
+PH-BYZ,KLM,Nose Tire,Landing Gear,32,2,71.2,Minor,1024,HIGH
+EI-DKD,Ryanair,Flap Track Right,Flight Controls,27,9,71.2,Minor,2232,HIGH
+EI-DVJ,Ryanair,Flap Track Left,Flight Controls,27,9,71.2,Minor,10140,HIGH
+EI-DGC,Ryanair,Main Landing Gear Left,Landing Gear,32,10,71.2,Minor,11898,HIGH
+EI-DGY,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,71.2,Minor,8025,HIGH
+EI-DVJ,Ryanair,Potable Water Tank,Water/Waste,38,9,71.2,Minor,5449,HIGH
+PH-BKH,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,71.2,Minor,6721,HIGH
+PH-BDT,KLM,Hydraulic Reservoir A,Hydraulic,29,5,71.2,Minor,6217,HIGH
+EI-DWF,Ryanair,Hydraulic Pump A,Hydraulic,29,5,71.2,Minor,5028,HIGH
+EI-DGC,Ryanair,Main Landing Gear Right,Landing Gear,32,10,71.2,Minor,8058,HIGH
+PH-BYZ,KLM,Engine #1 HP Compressor,Powerplant,72,7,71.2,Minor,7794,HIGH
+LN-NKW,Norwegian,Hydraulic Pump A,Hydraulic,29,5,71.2,Minor,3494,HIGH
+PH-BDZ,KLM,Engine #2 Fan Blades,Powerplant,72,6,71.2,Moderate,7357,HIGH
+EI-DUN,Ryanair,Nose Landing Gear,Landing Gear,32,9,71.2,Minor,9848,HIGH
+OO-JBV,TUI fly,Wing Anti-Ice Valve Left,Ice Protection,30,8,71.2,Minor,5501,HIGH
+OO-JVB,TUI fly,Flap Track Left,Flight Controls,27,9,71.2,Minor,7956,HIGH
+EI-DUN,Ryanair,Flap Track Right,Flight Controls,27,9,71.2,Minor,6767,HIGH
+OO-JVB,TUI fly,Main Landing Gear Right,Landing Gear,32,10,71.2,Moderate,7086,HIGH
+EI-DNJ,Ryanair,Main Landing Gear Right,Landing Gear,32,10,71.2,Moderate,10071,HIGH
+OO-JVN,TUI fly,Wing Anti-Ice Valve Left,Ice Protection,30,8,71.2,Minor,3059,HIGH
+EI-DMY,Ryanair,Nose Tire,Landing Gear,32,2,71.2,Minor,466,HIGH
+EI-DGY,Ryanair,Main Landing Gear Left,Landing Gear,32,10,71.2,Minor,7543,HIGH
+PH-BDB,KLM,Engine #2 Fan Blades,Powerplant,72,6,71.2,Minor,5969,HIGH
+PH-BYZ,KLM,Wing Leading Edge Left,Structure,57,7,71.2,Moderate,8210,HIGH
+EI-DDM,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,71.2,Minor,10710,HIGH
+EI-DMY,Ryanair,Nose Landing Gear,Landing Gear,32,9,71.2,Minor,14810,HIGH
+OO-JVB,TUI fly,Brake Assembly Left,Landing Gear,32,8,71.2,Minor,2307,HIGH
+PH-BRO,KLM,Aileron Left,Flight Controls,27,7,71.2,Minor,4471,HIGH
+OO-JHF,TUI fly,Air Conditioning Pack Right,Air Conditioning,21,7,71.2,Moderate,2776,HIGH
+EI-DUN,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,71.2,Minor,3644,HIGH
+EI-DVJ,Ryanair,Rudder,Flight Controls,27,6,71.2,Minor,5650,HIGH
+PH-BMX,KLM,Elevator Left,Flight Controls,27,6,71.2,Minor,8632,HIGH
+EI-DGC,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,71.2,Minor,5727,HIGH
+PH-BDZ,KLM,Escape Slide #1,Equipment,25,4,71.2,Minor,14640,HIGH
+PH-BDZ,KLM,Cargo Door,Structure,53,8,71.2,Minor,9622,HIGH
+OO-JBV,TUI fly,Nose Landing Gear,Landing Gear,32,9,71.2,Minor,12350,HIGH
+PH-BMX,KLM,Fuel Tank Wing Right,Fuel System,28,9,71.2,Minor,4002,HIGH
+PH-BMX,KLM,Wiring Harness FWD,Electrical,24,8,71.1,Minor,14013,HIGH
+LN-NKW,Norwegian,Main Landing Gear Left,Landing Gear,32,10,71.1,Minor,9095,HIGH
+EI-DDM,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,71.1,Minor,7577,HIGH
+PH-BMX,KLM,Rudder,Flight Controls,27,6,71.1,Minor,7312,HIGH
+EI-DNJ,Ryanair,Wing Spar Left,Structure,57,9,71.1,Minor,23914,HIGH
+PH-BDB,KLM,Aileron Right,Flight Controls,27,7,71.1,Minor,3381,HIGH
+PH-BDT,KLM,Aileron Left,Flight Controls,27,7,71.1,Minor,5536,HIGH
+OO-JHF,TUI fly,Main Battery,Electrical,24,6,71.1,Minor,1967,HIGH
+EI-DGC,Ryanair,Flap Track Right,Flight Controls,27,9,71.1,Minor,4468,HIGH
+PH-BYZ,KLM,Fuselage Skin Aft,Structure,53,8,71.1,Minor,18117,HIGH
+LN-NKW,Norwegian,Wing Spar Left,Structure,57,9,71.1,Moderate,39822,HIGH
+PH-BYZ,KLM,Hydraulic Reservoir A,Hydraulic,29,5,71.1,Minor,8236,HIGH
+EI-DVJ,Ryanair,Fuselage Skin Forward,Structure,53,8,71.1,None,32100,HIGH
+OO-JHF,TUI fly,Fuel Boost Pump #2,Fuel System,28,6,71.1,Minor,3543,HIGH
+PH-BRO,KLM,Brake Assembly Right,Landing Gear,32,8,71.1,Minor,39,HIGH
+OO-JHF,TUI fly,Engine #1 HP Compressor,Powerplant,72,7,71.1,Minor,7823,HIGH
+PH-BYZ,KLM,Fuel Tank Wing Left,Fuel System,28,9,71.1,Minor,4996,HIGH
+OO-JVN,TUI fly,Potable Water Tank,Water/Waste,38,9,71.1,Minor,2545,HIGH
+OO-JBB,TUI fly,Pax Door Frame,Structure,53,7,71.1,Minor,16880,HIGH
+EI-DWF,Ryanair,Rudder,Flight Controls,27,6,71.1,Minor,6199,HIGH
+PH-BDZ,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,71.1,Minor,8332,HIGH
+EI-DKD,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,71.1,Minor,7353,HIGH
+OO-JBB,TUI fly,Hydraulic Reservoir A,Hydraulic,29,5,71.1,Minor,5875,HIGH
+OO-JVB,TUI fly,Fuselage Skin Aft,Structure,53,8,71.0,Minor,31482,HIGH
+EI-DWF,Ryanair,Wiring Harness FWD,Electrical,24,8,71.0,Moderate,9786,HIGH
+EI-DDM,Ryanair,Fuselage Skin Aft,Structure,53,8,70.9,Minor,24862,HIGH
+PH-BYZ,KLM,Fuel Tank Wing Right,Fuel System,28,9,70.8,Minor,6802,HIGH
+EI-DMY,Ryanair,Brake Assembly Left,Landing Gear,32,8,70.8,Minor,1343,HIGH
+OO-JVB,TUI fly,Aileron Right,Flight Controls,27,7,70.8,Minor,4976,HIGH
+EI-DKD,Ryanair,Flap Track Left,Flight Controls,27,9,70.8,Minor,7712,HIGH
+EI-DKD,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,70.8,Minor,6718,HIGH
+EI-DVJ,Ryanair,Flap Track Right,Flight Controls,27,9,70.8,Minor,9245,HIGH
+PH-BKH,KLM,Cargo Door,Structure,53,8,70.8,Minor,27732,HIGH
+OO-JBV,TUI fly,Fuel Tank Wing Right,Fuel System,28,9,70.8,Minor,8498,HIGH
+OO-JBV,TUI fly,Fuselage Skin Forward,Structure,53,8,70.8,Minor,32659,HIGH
+PH-BPX,KLM,Engine #1 HP Compressor,Powerplant,72,7,70.8,Minor,11338,HIGH
+PH-BMX,KLM,Wing Leading Edge Left,Structure,57,7,70.8,Minor,6427,HIGH
+PH-BDZ,KLM,Hydraulic Pump A,Hydraulic,29,5,70.8,Minor,4664,HIGH
+PH-BDZ,KLM,Potable Water Tank,Water/Waste,38,9,70.8,Minor,6228,HIGH
+OO-JBV,TUI fly,Engine #1 Fan Blades,Powerplant,72,6,70.8,Minor,12718,HIGH
+PH-BRO,KLM,Hydraulic Lines System A,Hydraulic,29,7,70.8,Minor,6091,HIGH
+EI-DGC,Ryanair,Fuselage Skin Forward,Structure,53,8,70.8,Minor,30611,HIGH
+PH-BYZ,KLM,Aileron Right,Flight Controls,27,7,70.8,Minor,3330,HIGH
+LN-NKW,Norwegian,Fuel Tank Wing Right,Fuel System,28,9,70.8,Minor,10132,HIGH
+EI-DVJ,Ryanair,Hydraulic Pump A,Hydraulic,29,5,70.8,Minor,3314,HIGH
+LN-NKW,Norwegian,Fuel Boost Pump #2,Fuel System,28,6,70.8,Minor,3627,HIGH
+LN-NLP,Norwegian,Fuel Boost Pump #1,Fuel System,28,6,70.8,Minor,3547,HIGH
+PH-BDZ,KLM,Nose Tire,Landing Gear,32,2,70.8,Minor,81,HIGH
+LN-NKW,Norwegian,Cargo Door,Structure,53,8,70.8,Minor,31300,HIGH
+LN-NKW,Norwegian,Wing Anti-Ice Valve Left,Ice Protection,30,8,70.8,Minor,3835,HIGH
+PH-BUK,KLM,Flap Track Left,Flight Controls,27,9,70.8,Minor,5117,HIGH
+PH-BUK,KLM,Main Landing Gear Left,Landing Gear,32,10,70.8,Minor,3590,HIGH
+LN-NIR,Norwegian,Pitot Tube Heater,Ice Protection,30,9,70.8,Minor,1303,HIGH
+PH-BZZ,KLM,Main Landing Gear Right,Landing Gear,32,10,70.8,Minor,10338,HIGH
+PH-BZZ,KLM,Hydraulic Lines System A,Hydraulic,29,7,70.8,Minor,9432,HIGH
+PH-BZZ,KLM,Fuel Tank Wing Right,Fuel System,28,9,70.8,Minor,10319,HIGH
+PH-BYZ,KLM,Bleed Air Duct Left,Pneumatic,36,6,70.7,Minor,6314,HIGH
+PH-BZZ,KLM,Potable Water Tank,Water/Waste,38,9,70.7,Minor,4303,HIGH
+EI-DDM,Ryanair,Nose Landing Gear,Landing Gear,32,9,70.7,Minor,6302,HIGH
+PH-BKH,KLM,Rudder,Flight Controls,27,6,70.7,Minor,8428,HIGH
+PH-BKH,KLM,Pitot Tube Heater,Ice Protection,30,9,70.7,Minor,1694,HIGH
+EI-DKD,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,70.7,None,10744,HIGH
+PH-BMX,KLM,Fuel Boost Pump #2,Fuel System,28,6,70.7,Minor,3919,HIGH
+EI-DGY,Ryanair,Elevator Left,Flight Controls,27,6,70.7,Minor,5515,HIGH
+LN-NKW,Norwegian,Flap Track Right,Flight Controls,27,9,70.7,Minor,9231,HIGH
+OO-JVB,TUI fly,Hydraulic Pump A,Hydraulic,29,5,70.7,Minor,4294,HIGH
+LN-NKW,Norwegian,Main Landing Gear Right,Landing Gear,32,10,70.7,Minor,9190,HIGH
+EI-DWF,Ryanair,Aileron Right,Flight Controls,27,7,70.7,Minor,3939,HIGH
+EI-DNJ,Ryanair,Brake Assembly Right,Landing Gear,32,8,70.7,Minor,1538,HIGH
+EI-DUN,Ryanair,Potable Water Tank,Water/Waste,38,9,70.7,Minor,4031,HIGH
+OO-JBV,TUI fly,Engine #1 HP Compressor,Powerplant,72,7,70.7,Moderate,8964,HIGH
+OO-JBV,TUI fly,Wing Leading Edge Left,Structure,57,7,70.7,Minor,8273,HIGH
+OO-JBB,TUI fly,Nose Landing Gear,Landing Gear,32,9,70.7,Minor,7268,HIGH
+OO-JBB,TUI fly,Air Conditioning Pack Right,Air Conditioning,21,7,70.7,Minor,4832,HIGH
+OO-JBB,TUI fly,Elevator Left,Flight Controls,27,6,70.7,Minor,5687,HIGH
+EI-DVJ,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,70.7,Minor,2187,HIGH
+EI-DDM,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,70.7,Minor,9155,HIGH
+OO-JVB,TUI fly,Generator #1,Electrical,24,5,70.6,Minor,5218,HIGH
+OO-JVN,TUI fly,Hydraulic Pump A,Hydraulic,29,5,70.6,Minor,5411,HIGH
+LN-NKW,Norwegian,Hydraulic Reservoir A,Hydraulic,29,5,70.6,Minor,5908,HIGH
+PH-BPX,KLM,Hydraulic Lines System A,Hydraulic,29,7,70.6,Minor,10018,HIGH
+PH-BRO,KLM,Pax Door Frame,Structure,53,7,70.6,Minor,20351,HIGH
+EI-DLY,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,70.6,Minor,6949,HIGH
+EI-DLY,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,70.6,Minor,8841,HIGH
+EI-DWF,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,70.6,Minor,11568,HIGH
+PH-BDT,KLM,Fuselage Skin Forward,Structure,53,8,70.6,Minor,25607,HIGH
+PH-BMX,KLM,Main Battery,Electrical,24,6,70.6,Minor,1176,HIGH
+PH-BPX,KLM,Rudder,Flight Controls,27,6,70.6,Minor,7843,HIGH
+LN-NDS,Norwegian,Fuel Tank Wing Left,Fuel System,28,9,70.6,Minor,9087,HIGH
+PH-BMX,KLM,Fuselage Skin Forward,Structure,53,8,70.6,Minor,34492,HIGH
+PH-BMX,KLM,Nose Landing Gear,Landing Gear,32,9,70.6,Minor,11086,HIGH
+EI-DDM,Ryanair,Hydraulic Pump A,Hydraulic,29,5,70.6,None,2718,HIGH
+EI-DGC,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,70.6,Minor,6781,HIGH
+EI-DDM,Ryanair,Wing Leading Edge Left,Structure,57,7,70.6,None,6403,HIGH
+PH-BRO,KLM,Fuselage Skin Aft,Structure,53,8,70.6,Minor,28191,HIGH
+PH-BDB,KLM,Wing Spar Right,Structure,57,9,70.6,Minor,27686,HIGH
+LN-NLP,Norwegian,Main Landing Gear Left,Landing Gear,32,10,70.6,Moderate,9753,HIGH
+LN-NLP,Norwegian,Fuel Tank Wing Right,Fuel System,28,9,70.6,Minor,11002,HIGH
+EI-DNJ,Ryanair,Aileron Right,Flight Controls,27,7,70.6,Minor,5143,HIGH
+OO-JVB,TUI fly,Potable Water Tank,Water/Waste,38,9,70.6,Minor,10310,HIGH
+EI-DDM,Ryanair,Wiring Harness FWD,Electrical,24,8,70.5,Minor,11438,HIGH
+PH-BDZ,KLM,Fuel Boost Pump #1,Fuel System,28,6,70.5,Minor,2989,HIGH
+PH-BDZ,KLM,Flap Track Right,Flight Controls,27,9,70.5,Minor,12163,HIGH
+LN-NIR,Norwegian,Engine #1 HP Turbine,Powerplant,72,5,70.5,None,6383,HIGH
+EI-DWF,Ryanair,Brake Assembly Left,Landing Gear,32,8,70.5,Minor,2810,HIGH
+OO-JHF,TUI fly,Engine #2 Fan Blades,Powerplant,72,6,70.5,None,10633,HIGH
+OO-JVN,TUI fly,Bleed Air Duct Left,Pneumatic,36,6,70.5,Moderate,6104,HIGH
+LN-NDS,Norwegian,Main Battery,Electrical,24,6,70.5,Minor,1669,HIGH
+PH-BRO,KLM,Nose Landing Gear,Landing Gear,32,9,70.5,Minor,13291,HIGH
+EI-DWF,Ryanair,Generator #1,Electrical,24,5,70.4,Minor,6586,HIGH
+PH-BMX,KLM,Wing Spar Right,Structure,57,9,70.4,Minor,42807,HIGH
+EI-DWF,Ryanair,Flap Track Left,Flight Controls,27,9,70.4,Minor,8057,HIGH
+PH-BUK,KLM,Bleed Air Duct Left,Pneumatic,36,6,70.3,Minor,7694,HIGH
+PH-BRO,KLM,Main Battery,Electrical,24,6,70.3,Minor,2056,HIGH
+EI-DDM,Ryanair,Aileron Right,Flight Controls,27,7,70.3,Minor,5682,HIGH
+PH-BUK,KLM,Hydraulic Pump A,Hydraulic,29,5,70.3,None,5402,HIGH
+EI-DGC,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,70.2,Minor,5765,HIGH
+PH-BYZ,KLM,Elevator Left,Flight Controls,27,6,70.2,Minor,7004,HIGH
+PH-BUK,KLM,Main Tire,Landing Gear,32,2,70.2,None,98,HIGH
+LN-NDS,Norwegian,Potable Water Tank,Water/Waste,38,9,70.2,Minor,8392,HIGH
+LN-NDS,Norwegian,Aileron Left,Flight Controls,27,7,70.2,Minor,7755,HIGH
+PH-BYZ,KLM,Hydraulic Lines System A,Hydraulic,29,7,70.2,Minor,5635,HIGH
+EI-DDM,Ryanair,Aileron Left,Flight Controls,27,7,70.2,Minor,6182,HIGH
+LN-NAQ,Norwegian,Wing Anti-Ice Valve Left,Ice Protection,30,8,70.2,None,2550,HIGH
+EI-DGC,Ryanair,Nose Landing Gear,Landing Gear,32,9,70.2,None,5240,HIGH
+PH-BUK,KLM,Flap Track Right,Flight Controls,27,9,70.2,Minor,13303,HIGH
+PH-BRO,KLM,Nose Tire,Landing Gear,32,2,70.2,Minor,31,HIGH
+EI-DGY,Ryanair,Flap Track Right,Flight Controls,27,9,70.2,Minor,8928,HIGH
+LN-NLP,Norwegian,Hydraulic Lines System A,Hydraulic,29,7,70.2,Minor,4523,HIGH
+OO-JBB,TUI fly,Wing Leading Edge Left,Structure,57,7,70.2,Minor,7299,HIGH
+EI-DUN,Ryanair,Elevator Left,Flight Controls,27,6,70.2,Minor,5366,HIGH
+EI-DVJ,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,70.2,Moderate,5564,HIGH
+EI-DUN,Ryanair,Fuselage Skin Aft,Structure,53,8,70.2,Minor,31197,HIGH
+EI-DUN,Ryanair,Hydraulic Pump A,Hydraulic,29,5,70.2,Minor,3780,HIGH
+OO-JBV,TUI fly,Air Conditioning Pack Left,Air Conditioning,21,7,70.2,Minor,4898,HIGH
+OO-JBV,TUI fly,Fuel Boost Pump #2,Fuel System,28,6,70.2,Minor,4003,HIGH
+EI-DNJ,Ryanair,Pitot Tube Heater,Ice Protection,30,9,70.2,Minor,3231,HIGH
+EI-DWF,Ryanair,Pax Door Frame,Structure,53,7,70.2,Minor,26845,HIGH
+EI-DWF,Ryanair,Wing Spar Right,Structure,57,9,70.2,Minor,30376,HIGH
+EI-DUN,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,70.2,Minor,2344,HIGH
+OO-JHF,TUI fly,Brake Assembly Right,Landing Gear,32,8,70.2,Minor,1163,HIGH
+OO-JVN,TUI fly,Engine #1 HP Compressor,Powerplant,72,7,70.2,Minor,7334,HIGH
+PH-BUK,KLM,Main Battery,Electrical,24,6,70.2,Minor,3426,HIGH
+EI-DLY,Ryanair,Elevator Left,Flight Controls,27,6,70.2,Minor,8139,HIGH
+EI-DMY,Ryanair,Rudder,Flight Controls,27,6,70.2,None,7488,HIGH
+LN-NKW,Norwegian,Aileron Right,Flight Controls,27,7,70.2,Minor,5246,HIGH
+EI-DMY,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,70.2,Minor,7902,HIGH
+EI-DMY,Ryanair,Flap Track Right,Flight Controls,27,9,70.2,Minor,10153,HIGH
+PH-BDT,KLM,Engine #1 HP Turbine,Powerplant,72,5,70.2,Minor,9689,HIGH
+EI-DLY,Ryanair,Wiring Harness FWD,Electrical,24,8,70.2,Minor,12142,HIGH
+PH-BKH,KLM,Wing Spar Left,Structure,57,9,70.2,Minor,3591,HIGH
+EI-DLY,Ryanair,Main Landing Gear Left,Landing Gear,32,10,70.2,Minor,8449,HIGH
+LN-NAQ,Norwegian,Wing Spar Right,Structure,57,9,70.2,Minor,30175,HIGH
+PH-BKH,KLM,Main Landing Gear Left,Landing Gear,32,10,70.2,Minor,9446,HIGH
+EI-DKD,Ryanair,Escape Slide #1,Equipment,25,4,70.2,Minor,14734,HIGH
+EI-DKD,Ryanair,Rudder,Flight Controls,27,6,70.2,Minor,6374,HIGH
+LN-NIR,Norwegian,Flap Track Left,Flight Controls,27,9,70.2,Minor,10816,HIGH
+EI-DKD,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,70.2,Moderate,2954,HIGH
+PH-BMX,KLM,Potable Water Tank,Water/Waste,38,9,70.2,Minor,4191,HIGH
+LN-NDS,Norwegian,Nose Landing Gear,Landing Gear,32,9,70.2,Minor,13310,HIGH
+OO-JVN,TUI fly,Nose Landing Gear,Landing Gear,32,9,70.2,Minor,16214,HIGH
+OO-JVN,TUI fly,Generator #1,Electrical,24,5,70.2,Minor,4929,HIGH
+OO-JVB,TUI fly,Wing Spar Right,Structure,57,9,70.1,Minor,30908,HIGH
+EI-DVJ,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,70.1,Minor,9559,HIGH
+PH-BPX,KLM,Aileron Right,Flight Controls,27,7,70.1,Minor,6257,HIGH
+LN-NIR,Norwegian,Rudder,Flight Controls,27,6,70.1,Moderate,5309,HIGH
+EI-DUN,Ryanair,Generator #1,Electrical,24,5,70.1,Minor,4155,HIGH
+PH-BDZ,KLM,Bleed Air Duct Left,Pneumatic,36,6,70.1,Minor,6512,HIGH
+PH-BZZ,KLM,Brake Assembly Right,Landing Gear,32,8,70.1,Minor,0,HIGH
+PH-BRO,KLM,Hydraulic Reservoir A,Hydraulic,29,5,70.1,Minor,7359,HIGH
+PH-BRO,KLM,Main Tire,Landing Gear,32,2,70.1,Minor,1196,HIGH
+EI-DGC,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,70.1,Minor,3730,HIGH
+PH-BUK,KLM,Nose Landing Gear,Landing Gear,32,9,70.1,Minor,4808,HIGH
+LN-NDS,Norwegian,Wiring Harness FWD,Electrical,24,8,70.1,Minor,5131,HIGH
+PH-BDT,KLM,Flap Track Right,Flight Controls,27,9,70.1,Minor,9268,HIGH
+LN-NAQ,Norwegian,Brake Assembly Right,Landing Gear,32,8,70.1,Minor,1938,HIGH
+LN-NKW,Norwegian,Nose Landing Gear,Landing Gear,32,9,70.1,Minor,4667,HIGH
+PH-BUK,KLM,Rudder,Flight Controls,27,6,70.0,Minor,7227,HIGH
+EI-DGY,Ryanair,Nose Tire,Landing Gear,32,2,70.0,Minor,911,HIGH
+EI-DNJ,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,70.0,Minor,6385,MEDIUM
+OO-JBV,TUI fly,Nose Tire,Landing Gear,32,2,70.0,Minor,856,HIGH
+LN-NKW,Norwegian,Fuselage Skin Forward,Structure,53,8,70.0,Minor,37921,HIGH
+LN-NDS,Norwegian,Brake Assembly Right,Landing Gear,32,8,70.0,Minor,2132,HIGH
+EI-DGC,Ryanair,Cargo Door,Structure,53,8,70.0,Minor,35316,HIGH
+EI-DNJ,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,70.0,Minor,9478,HIGH
+OO-JVN,TUI fly,Air Conditioning Pack Left,Air Conditioning,21,7,69.9,Minor,7415,MEDIUM
+LN-NAQ,Norwegian,Cargo Door,Structure,53,8,69.9,Minor,36007,MEDIUM
+EI-DGY,Ryanair,Pax Door Frame,Structure,53,7,69.9,None,19747,MEDIUM
+EI-DMY,Ryanair,Main Landing Gear Right,Landing Gear,32,10,69.9,Minor,13327,MEDIUM
+PH-BUK,KLM,Fuel Boost Pump #1,Fuel System,28,6,69.9,Minor,3361,MEDIUM
+PH-BUK,KLM,Aileron Right,Flight Controls,27,7,69.8,Moderate,5522,MEDIUM
+OO-JVN,TUI fly,Fuel Tank Wing Right,Fuel System,28,9,69.8,Minor,8453,MEDIUM
+EI-DWF,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,69.8,Minor,11956,MEDIUM
+PH-BPX,KLM,Brake Assembly Left,Landing Gear,32,8,69.8,Minor,1614,MEDIUM
+EI-DMY,Ryanair,Main Battery,Electrical,24,6,69.8,Moderate,1352,MEDIUM
+LN-NAQ,Norwegian,Air Conditioning Pack Left,Air Conditioning,21,7,69.7,Minor,5206,MEDIUM
+EI-DVJ,Ryanair,Aileron Left,Flight Controls,27,7,69.7,Minor,6085,MEDIUM
+PH-BDZ,KLM,Engine #1 HP Compressor,Powerplant,72,7,69.7,Minor,9586,MEDIUM
+EI-DGC,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,69.7,Minor,6517,MEDIUM
+EI-DNJ,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,69.7,Minor,11699,MEDIUM
+EI-DWF,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,69.7,Minor,2860,MEDIUM
+OO-JHF,TUI fly,Fuselage Skin Forward,Structure,53,8,69.7,Minor,23175,MEDIUM
+EI-DVJ,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,69.7,Minor,10093,MEDIUM
+EI-DKD,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,69.7,Minor,5373,MEDIUM
+EI-DDM,Ryanair,Cargo Door,Structure,53,8,69.6,None,26608,MEDIUM
+LN-NAQ,Norwegian,Bleed Air Duct Left,Pneumatic,36,6,69.6,None,2167,MEDIUM
+PH-BRO,KLM,Flap Track Right,Flight Controls,27,9,69.6,None,4312,MEDIUM
+EI-DKD,Ryanair,Main Battery,Electrical,24,6,69.6,Minor,1970,MEDIUM
+PH-BDB,KLM,Flap Track Left,Flight Controls,27,9,69.6,Minor,7687,MEDIUM
+PH-BDB,KLM,Fuel Tank Wing Left,Fuel System,28,9,69.6,None,10579,MEDIUM
+EI-DMY,Ryanair,Brake Assembly Right,Landing Gear,32,8,69.6,Minor,2884,MEDIUM
+PH-BDT,KLM,Fuel Tank Wing Right,Fuel System,28,9,69.6,Minor,10326,MEDIUM
+PH-BDZ,KLM,Brake Assembly Right,Landing Gear,32,8,69.6,Minor,1892,MEDIUM
+EI-DWF,Ryanair,Wing Leading Edge Left,Structure,57,7,69.6,Minor,8676,MEDIUM
+PH-BMX,KLM,Brake Assembly Right,Landing Gear,32,8,69.6,Minor,2423,MEDIUM
+PH-BMX,KLM,Pax Door Frame,Structure,53,7,69.6,None,14965,MEDIUM
+EI-DGY,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,69.6,Minor,8722,MEDIUM
+OO-JHF,TUI fly,Main Landing Gear Right,Landing Gear,32,10,69.6,Minor,6861,MEDIUM
+EI-DNJ,Ryanair,Main Battery,Electrical,24,6,69.6,Minor,3401,MEDIUM
+EI-DNJ,Ryanair,Fuel Tank Wing Left,Fuel System,28,9,69.6,Minor,7734,MEDIUM
+EI-DUN,Ryanair,Wing Spar Right,Structure,57,9,69.6,None,23194,MEDIUM
+OO-JBV,TUI fly,Engine #2 Fan Blades,Powerplant,72,6,69.6,None,9551,MEDIUM
+EI-DUN,Ryanair,Pitot Tube Heater,Ice Protection,30,9,69.6,Minor,2183,MEDIUM
+EI-DDM,Ryanair,Elevator Left,Flight Controls,27,6,69.6,None,6400,MEDIUM
+EI-DKD,Ryanair,Nose Tire,Landing Gear,32,2,69.5,Minor,49,MEDIUM
+PH-BKH,KLM,Fuel Tank Wing Left,Fuel System,28,9,69.5,Minor,10826,MEDIUM
+EI-DVJ,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,69.5,Minor,8160,MEDIUM
+PH-BZZ,KLM,Fuel Boost Pump #2,Fuel System,28,6,69.5,Minor,4805,MEDIUM
+PH-BZZ,KLM,Fuel Boost Pump #1,Fuel System,28,6,69.5,Minor,2000,MEDIUM
+PH-BUK,KLM,Nose Tire,Landing Gear,32,2,69.5,Minor,31,MEDIUM
+PH-BUK,KLM,Main Landing Gear Right,Landing Gear,32,10,69.5,Minor,8806,MEDIUM
+EI-DNJ,Ryanair,Main Landing Gear Left,Landing Gear,32,10,69.5,Minor,9652,MEDIUM
+PH-BRO,KLM,Fuselage Skin Forward,Structure,53,8,69.5,Minor,31005,MEDIUM
+OO-JHF,TUI fly,Wing Leading Edge Left,Structure,57,7,69.5,None,5399,MEDIUM
+PH-BRO,KLM,Engine #1 Fan Blades,Powerplant,72,6,69.5,Minor,10726,MEDIUM
+PH-BPX,KLM,Generator #1,Electrical,24,5,69.5,Minor,4575,MEDIUM
+PH-BDT,KLM,Pax Door Frame,Structure,53,7,69.5,None,17587,MEDIUM
+PH-BDB,KLM,Fuselage Skin Forward,Structure,53,8,69.5,Minor,36074,MEDIUM
+PH-BRO,KLM,Wing Spar Right,Structure,57,9,69.5,Minor,34691,MEDIUM
+PH-BPX,KLM,Engine #1 HP Turbine,Powerplant,72,5,69.5,Minor,14531,MEDIUM
+OO-JVB,TUI fly,Fuel Boost Pump #1,Fuel System,28,6,69.5,Minor,2769,MEDIUM
+EI-DWF,Ryanair,Flap Track Right,Flight Controls,27,9,69.4,Minor,7332,MEDIUM
+PH-BPX,KLM,Hydraulic Pump A,Hydraulic,29,5,69.3,Minor,4120,MEDIUM
+EI-DDM,Ryanair,Flap Track Left,Flight Controls,27,9,69.3,Minor,9926,MEDIUM
+OO-JHF,TUI fly,Engine #1 HP Turbine,Powerplant,72,5,69.3,None,6525,MEDIUM
+OO-JHF,TUI fly,Brake Assembly Left,Landing Gear,32,8,69.3,Minor,1555,MEDIUM
+EI-DMY,Ryanair,Hydraulic Pump A,Hydraulic,29,5,69.3,Minor,4069,MEDIUM
+PH-BUK,KLM,Generator #1,Electrical,24,5,69.3,Minor,6647,MEDIUM
+EI-DNJ,Ryanair,Wing Spar Right,Structure,57,9,69.3,Minor,25728,MEDIUM
+PH-BDT,KLM,Wing Leading Edge Left,Structure,57,7,69.2,Moderate,4713,MEDIUM
+LN-NKW,Norwegian,Engine #1 HP Turbine,Powerplant,72,5,69.2,None,8524,MEDIUM
+PH-BDB,KLM,Potable Water Tank,Water/Waste,38,9,69.2,None,6063,MEDIUM
+PH-BKH,KLM,Engine #2 Fan Blades,Powerplant,72,6,69.2,Minor,5848,MEDIUM
+LN-NLP,Norwegian,Fuselage Skin Aft,Structure,53,8,69.2,Minor,31710,MEDIUM
+PH-BPX,KLM,Cargo Door,Structure,53,8,69.2,Minor,20653,MEDIUM
+EI-DVJ,Ryanair,Main Landing Gear Left,Landing Gear,32,10,69.2,Minor,10062,MEDIUM
+PH-BDT,KLM,Main Landing Gear Right,Landing Gear,32,10,69.2,Minor,10882,MEDIUM
+PH-BYZ,KLM,Generator #1,Electrical,24,5,69.2,Minor,3262,MEDIUM
+PH-BPX,KLM,Main Battery,Electrical,24,6,69.1,Minor,3087,MEDIUM
+PH-BDZ,KLM,Pax Door Frame,Structure,53,7,69.1,Minor,27323,MEDIUM
+EI-DLY,Ryanair,Cargo Door,Structure,53,8,69.1,None,29393,MEDIUM
+OO-JBB,TUI fly,Engine #1 Fan Blades,Powerplant,72,6,69.1,Minor,12800,MEDIUM
+OO-JBB,TUI fly,Engine #2 Fan Blades,Powerplant,72,6,69.1,Minor,10852,MEDIUM
+LN-NIR,Norwegian,Wing Spar Right,Structure,57,9,69.1,Moderate,39792,MEDIUM
+PH-BDT,KLM,Generator #1,Electrical,24,5,69.1,None,6377,MEDIUM
+PH-BMX,KLM,Engine #1 HP Turbine,Powerplant,72,5,69.1,Minor,12073,MEDIUM
+EI-DKD,Ryanair,Aileron Left,Flight Controls,27,7,69.1,Minor,6204,MEDIUM
+EI-DLY,Ryanair,Escape Slide #1,Equipment,25,4,69.1,Minor,11984,MEDIUM
+EI-DLY,Ryanair,Main Battery,Electrical,24,6,69.1,Minor,3416,MEDIUM
+EI-DLY,Ryanair,Wing Spar Right,Structure,57,9,69.1,Minor,54422,MEDIUM
+PH-BKH,KLM,Brake Assembly Right,Landing Gear,32,8,69.1,Minor,3172,MEDIUM
+PH-BKH,KLM,Potable Water Tank,Water/Waste,38,9,69.1,Minor,5061,MEDIUM
+EI-DDM,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,69.1,Minor,11395,MEDIUM
+PH-BZZ,KLM,Flap Track Left,Flight Controls,27,9,69.1,Minor,14897,MEDIUM
+LN-NDS,Norwegian,Cargo Door,Structure,53,8,69.1,Minor,34512,MEDIUM
+LN-NLP,Norwegian,Bleed Air Duct Left,Pneumatic,36,6,69.1,None,6007,MEDIUM
+EI-DVJ,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,69.1,Minor,10073,MEDIUM
+PH-BKH,KLM,Fuselage Skin Aft,Structure,53,8,69.1,Minor,36655,MEDIUM
+PH-BKH,KLM,Nose Landing Gear,Landing Gear,32,9,69.1,Minor,11908,MEDIUM
+OO-JBB,TUI fly,Fuel Boost Pump #2,Fuel System,28,6,69.1,None,5858,MEDIUM
+PH-BDZ,KLM,Nose Landing Gear,Landing Gear,32,9,69.1,Minor,12306,MEDIUM
+PH-BRO,KLM,Engine #1 HP Compressor,Powerplant,72,7,69.1,Minor,9033,MEDIUM
+PH-BDB,KLM,Nose Tire,Landing Gear,32,2,69.1,Minor,603,MEDIUM
+PH-BDT,KLM,Brake Assembly Right,Landing Gear,32,8,69.1,Minor,1889,MEDIUM
+PH-BYZ,KLM,Escape Slide #1,Equipment,25,4,69.1,None,10140,MEDIUM
+EI-DGC,Ryanair,Wing Spar Left,Structure,57,9,69.1,None,27331,MEDIUM
+PH-BDT,KLM,Fuel Boost Pump #2,Fuel System,28,6,69.1,Minor,2056,MEDIUM
+EI-DLY,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,69.1,Minor,4213,MEDIUM
+OO-JVN,TUI fly,Flap Track Right,Flight Controls,27,9,69.1,None,9388,MEDIUM
+OO-JVB,TUI fly,Fuel Tank Wing Left,Fuel System,28,9,69.1,Minor,14121,MEDIUM
+PH-BRO,KLM,Aileron Right,Flight Controls,27,7,69.1,None,4228,MEDIUM
+LN-NDS,Norwegian,Wing Spar Left,Structure,57,9,69.1,Minor,40786,MEDIUM
+PH-BDB,KLM,Elevator Left,Flight Controls,27,6,69.1,Minor,7599,MEDIUM
+PH-BDB,KLM,Aileron Left,Flight Controls,27,7,69.1,Minor,6343,MEDIUM
+OO-JVN,TUI fly,Fuel Boost Pump #2,Fuel System,28,6,69.1,None,1647,MEDIUM
+PH-BUK,KLM,Fuselage Skin Aft,Structure,53,8,69.1,None,14265,MEDIUM
+LN-NKW,Norwegian,Pitot Tube Heater,Ice Protection,30,9,69.1,None,401,MEDIUM
+LN-NKW,Norwegian,Rudder,Flight Controls,27,6,69.1,Minor,5348,MEDIUM
+LN-NKW,Norwegian,Engine #1 Fan Blades,Powerplant,72,6,69.1,Minor,11249,MEDIUM
+PH-BDB,KLM,Main Landing Gear Right,Landing Gear,32,10,69.1,None,10775,MEDIUM
+EI-DUN,Ryanair,Nose Tire,Landing Gear,32,2,69.1,Minor,398,MEDIUM
+EI-DUN,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,69.1,Minor,6041,MEDIUM
+PH-BUK,KLM,Escape Slide #1,Equipment,25,4,69.1,Minor,16402,MEDIUM
+PH-BRO,KLM,Fuel Boost Pump #1,Fuel System,28,6,69.1,Minor,3231,MEDIUM
+LN-NKW,Norwegian,Brake Assembly Left,Landing Gear,32,8,69.1,Minor,1211,MEDIUM
+OO-JVB,TUI fly,Engine #1 HP Compressor,Powerplant,72,7,69.1,Minor,8286,MEDIUM
+OO-JVB,TUI fly,Flap Track Right,Flight Controls,27,9,69.1,Minor,5502,MEDIUM
+OO-JBV,TUI fly,Generator #1,Electrical,24,5,69.1,Minor,5771,MEDIUM
+OO-JBV,TUI fly,Brake Assembly Left,Landing Gear,32,8,69.1,Minor,1604,MEDIUM
+OO-JBV,TUI fly,Main Battery,Electrical,24,6,69.1,Minor,2234,MEDIUM
+OO-JBV,TUI fly,Air Conditioning Pack Right,Air Conditioning,21,7,69.1,Minor,6511,MEDIUM
+PH-BUK,KLM,Hydraulic Lines System A,Hydraulic,29,7,69.1,Minor,9479,MEDIUM
+EI-DNJ,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,69.1,None,7903,MEDIUM
+OO-JHF,TUI fly,Aileron Left,Flight Controls,27,7,69.1,None,4649,MEDIUM
+PH-BZZ,KLM,Wing Leading Edge Left,Structure,57,7,69.1,None,3699,MEDIUM
+PH-BZZ,KLM,Hydraulic Pump A,Hydraulic,29,5,69.1,Minor,6387,MEDIUM
+EI-DGC,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,69.1,None,5604,MEDIUM
+PH-BZZ,KLM,Cargo Door,Structure,53,8,69.1,None,28075,MEDIUM
+PH-BZZ,KLM,Engine #1 Fan Blades,Powerplant,72,6,69.1,Minor,9755,MEDIUM
+EI-DGC,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,69.1,Minor,12146,MEDIUM
+EI-DGC,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,69.0,Minor,3622,MEDIUM
+PH-BZZ,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,68.9,Minor,5053,MEDIUM
+PH-BYZ,KLM,Main Tire,Landing Gear,32,2,68.8,None,0,MEDIUM
+EI-DNJ,Ryanair,Flap Track Left,Flight Controls,27,9,68.8,Minor,15178,MEDIUM
+LN-NKW,Norwegian,Wing Leading Edge Left,Structure,57,7,68.8,Minor,8967,MEDIUM
+PH-BDT,KLM,Bleed Air Duct Left,Pneumatic,36,6,68.8,Minor,7476,MEDIUM
+EI-DLY,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,68.8,None,7464,MEDIUM
+PH-BDT,KLM,Wiring Harness FWD,Electrical,24,8,68.8,Minor,7632,MEDIUM
+EI-DLY,Ryanair,Brake Assembly Left,Landing Gear,32,8,68.8,Minor,3043,MEDIUM
+PH-BYZ,KLM,Wing Spar Right,Structure,57,9,68.8,None,35680,MEDIUM
+PH-BKH,KLM,Fuel Boost Pump #1,Fuel System,28,6,68.8,Minor,2616,MEDIUM
+PH-BDT,KLM,Engine #1 HP Compressor,Powerplant,72,7,68.8,Minor,10399,MEDIUM
+LN-NDS,Norwegian,Engine #1 HP Turbine,Powerplant,72,5,68.8,Minor,11953,MEDIUM
+OO-JBV,TUI fly,Main Landing Gear Right,Landing Gear,32,10,68.8,Minor,13041,MEDIUM
+EI-DMY,Ryanair,Potable Water Tank,Water/Waste,38,9,68.8,Minor,3407,MEDIUM
+OO-JHF,TUI fly,Generator #1,Electrical,24,5,68.8,Minor,3905,MEDIUM
+PH-BMX,KLM,Cargo Door,Structure,53,8,68.8,Minor,25295,MEDIUM
+OO-JBV,TUI fly,Hydraulic Lines System A,Hydraulic,29,7,68.8,None,9517,MEDIUM
+LN-NLP,Norwegian,Fuel Boost Pump #2,Fuel System,28,6,68.8,Minor,4262,MEDIUM
+PH-BDB,KLM,Main Tire,Landing Gear,32,2,68.8,None,0,MEDIUM
+EI-DGY,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,68.8,Minor,6755,MEDIUM
+LN-NKW,Norwegian,Wing Spar Right,Structure,57,9,68.8,Minor,39429,MEDIUM
+EI-DUN,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,68.8,Minor,9544,MEDIUM
+LN-NIR,Norwegian,Fuel Boost Pump #1,Fuel System,28,6,68.8,Minor,3907,MEDIUM
+PH-BRO,KLM,Cargo Door,Structure,53,8,68.8,Minor,35143,MEDIUM
+EI-DWF,Ryanair,Main Landing Gear Right,Landing Gear,32,10,68.8,Minor,8662,MEDIUM
+OO-JHF,TUI fly,Main Landing Gear Left,Landing Gear,32,10,68.7,None,12823,MEDIUM
+PH-BDB,KLM,Escape Slide #1,Equipment,25,4,68.7,None,13067,MEDIUM
+EI-DMY,Ryanair,Fuselage Skin Aft,Structure,53,8,68.7,Minor,27558,MEDIUM
+OO-JVN,TUI fly,Wiring Harness FWD,Electrical,24,8,68.7,Minor,9597,MEDIUM
+EI-DGY,Ryanair,Escape Slide #1,Equipment,25,4,68.7,Minor,12516,MEDIUM
+OO-JBB,TUI fly,Main Landing Gear Left,Landing Gear,32,10,68.7,None,7088,MEDIUM
+PH-BZZ,KLM,Aileron Left,Flight Controls,27,7,68.7,Minor,4192,MEDIUM
+EI-DGC,Ryanair,Wing Leading Edge Left,Structure,57,7,68.6,Moderate,7648,MEDIUM
+OO-JVB,TUI fly,Main Tire,Landing Gear,32,2,68.6,Minor,0,MEDIUM
+EI-DMY,Ryanair,Aileron Left,Flight Controls,27,7,68.6,Minor,6895,MEDIUM
+OO-JBB,TUI fly,Wing Anti-Ice Valve Left,Ice Protection,30,8,68.6,None,5534,MEDIUM
+LN-NIR,Norwegian,Air Conditioning Pack Left,Air Conditioning,21,7,68.6,Minor,7241,MEDIUM
+PH-BKH,KLM,Aileron Left,Flight Controls,27,7,68.6,Minor,7075,MEDIUM
+EI-DGC,Ryanair,Brake Assembly Left,Landing Gear,32,8,68.6,Minor,2189,MEDIUM
+EI-DGC,Ryanair,Rudder,Flight Controls,27,6,68.6,Minor,8004,MEDIUM
+PH-BZZ,KLM,Wing Spar Left,Structure,57,9,68.5,Minor,32220,MEDIUM
+EI-DUN,Ryanair,Brake Assembly Left,Landing Gear,32,8,68.5,Moderate,1059,MEDIUM
+LN-NLP,Norwegian,Main Landing Gear Right,Landing Gear,32,10,68.5,Moderate,11601,MEDIUM
+PH-BZZ,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,68.5,Minor,6203,MEDIUM
+EI-DGC,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,68.5,None,10257,MEDIUM
+LN-NDS,Norwegian,Rudder,Flight Controls,27,6,68.5,Moderate,5321,MEDIUM
+PH-BPX,KLM,Wing Spar Left,Structure,57,9,68.5,Moderate,32750,MEDIUM
+PH-BDT,KLM,Potable Water Tank,Water/Waste,38,9,68.5,Minor,7074,MEDIUM
+EI-DKD,Ryanair,Elevator Left,Flight Controls,27,6,68.5,Minor,5017,MEDIUM
+PH-BDT,KLM,Wing Spar Right,Structure,57,9,68.5,Minor,43962,MEDIUM
+OO-JBV,TUI fly,Hydraulic Pump A,Hydraulic,29,5,68.5,Minor,7701,MEDIUM
+OO-JVN,TUI fly,Fuel Boost Pump #1,Fuel System,28,6,68.4,None,2718,MEDIUM
+EI-DNJ,Ryanair,Pax Door Frame,Structure,53,7,68.4,Minor,19119,MEDIUM
+PH-BDB,KLM,Rudder,Flight Controls,27,6,68.4,Minor,6457,MEDIUM
+EI-DNJ,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,68.3,None,3464,MEDIUM
+EI-DGY,Ryanair,Pitot Tube Heater,Ice Protection,30,9,68.3,Minor,2882,MEDIUM
+EI-DMY,Ryanair,Cargo Door,Structure,53,8,68.3,Minor,34756,MEDIUM
+EI-DMY,Ryanair,Pitot Tube Heater,Ice Protection,30,9,68.3,Minor,4519,MEDIUM
+PH-BMX,KLM,Nose Tire,Landing Gear,32,2,68.2,None,599,MEDIUM
+LN-NAQ,Norwegian,Engine #1 HP Compressor,Powerplant,72,7,68.2,Minor,10249,MEDIUM
+LN-NLP,Norwegian,Fuselage Skin Forward,Structure,53,8,68.2,Minor,34051,MEDIUM
+OO-JBB,TUI fly,Nose Tire,Landing Gear,32,2,68.2,Minor,672,MEDIUM
+PH-BDT,KLM,Flap Track Left,Flight Controls,27,9,68.2,Minor,12314,MEDIUM
+PH-BDT,KLM,Pitot Tube Heater,Ice Protection,30,9,68.2,Minor,5537,MEDIUM
+LN-NDS,Norwegian,Engine #1 HP Compressor,Powerplant,72,7,68.2,Minor,7542,MEDIUM
+EI-DNJ,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,68.2,None,8100,MEDIUM
+OO-JHF,TUI fly,Wiring Harness FWD,Electrical,24,8,68.2,None,13530,MEDIUM
+EI-DDM,Ryanair,Rudder,Flight Controls,27,6,68.2,Minor,6662,MEDIUM
+LN-NDS,Norwegian,Bleed Air Duct Left,Pneumatic,36,6,68.2,Minor,8725,MEDIUM
+OO-JVN,TUI fly,Engine #2 Fan Blades,Powerplant,72,6,68.1,None,8647,MEDIUM
+PH-BZZ,KLM,Pax Door Frame,Structure,53,7,68.1,Minor,30572,MEDIUM
+LN-NDS,Norwegian,Wing Anti-Ice Valve Left,Ice Protection,30,8,68.1,Minor,2327,MEDIUM
+PH-BDB,KLM,Brake Assembly Right,Landing Gear,32,8,68.1,Minor,2054,MEDIUM
+EI-DKD,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,68.1,None,5665,MEDIUM
+EI-DVJ,Ryanair,Aileron Right,Flight Controls,27,7,68.0,Minor,5083,MEDIUM
+PH-BKH,KLM,Hydraulic Lines System A,Hydraulic,29,7,68.0,Minor,8095,MEDIUM
+EI-DLY,Ryanair,Aileron Right,Flight Controls,27,7,68.0,Minor,5345,MEDIUM
+PH-BDZ,KLM,Pitot Tube Heater,Ice Protection,30,9,68.0,None,3026,MEDIUM
+PH-BMX,KLM,Engine #1 Fan Blades,Powerplant,72,6,68.0,Minor,10862,MEDIUM
+OO-JVB,TUI fly,Rudder,Flight Controls,27,6,68.0,Moderate,9348,MEDIUM
+LN-NAQ,Norwegian,Air Conditioning Pack Right,Air Conditioning,21,7,68.0,None,4674,MEDIUM
+EI-DLY,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,68.0,Minor,9872,MEDIUM
+EI-DUN,Ryanair,Main Battery,Electrical,24,6,68.0,None,2225,MEDIUM
+EI-DNJ,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,68.0,Minor,9653,MEDIUM
+EI-DLY,Ryanair,Potable Water Tank,Water/Waste,38,9,68.0,Minor,10810,MEDIUM
+EI-DLY,Ryanair,Rudder,Flight Controls,27,6,68.0,Moderate,7741,MEDIUM
+PH-BPX,KLM,Wing Spar Right,Structure,57,9,68.0,Minor,27530,MEDIUM
+LN-NIR,Norwegian,Aileron Right,Flight Controls,27,7,68.0,None,5816,MEDIUM
+LN-NIR,Norwegian,Main Battery,Electrical,24,6,68.0,Minor,4723,MEDIUM
+EI-DVJ,Ryanair,Pax Door Frame,Structure,53,7,68.0,None,15299,MEDIUM
+PH-BDZ,KLM,Main Tire,Landing Gear,32,2,68.0,Minor,0,MEDIUM
+PH-BPX,KLM,Flap Track Right,Flight Controls,27,9,68.0,Minor,10191,MEDIUM
+PH-BUK,KLM,Wing Leading Edge Left,Structure,57,7,68.0,Minor,6280,MEDIUM
+LN-NDS,Norwegian,Air Conditioning Pack Right,Air Conditioning,21,7,68.0,Minor,6582,MEDIUM
+PH-BDT,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,68.0,Minor,5788,MEDIUM
+OO-JHF,TUI fly,Hydraulic Pump A,Hydraulic,29,5,68.0,Minor,5194,MEDIUM
+EI-DGY,Ryanair,Main Tire,Landing Gear,32,2,68.0,Minor,579,MEDIUM
+OO-JBV,TUI fly,Escape Slide #1,Equipment,25,4,68.0,Minor,14581,MEDIUM
+OO-JBB,TUI fly,Generator #1,Electrical,24,5,68.0,Minor,5758,MEDIUM
+EI-DNJ,Ryanair,Cargo Door,Structure,53,8,68.0,Minor,31081,MEDIUM
+PH-BRO,KLM,Rudder,Flight Controls,27,6,68.0,Minor,6102,MEDIUM
+EI-DGC,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,68.0,None,1549,MEDIUM
+EI-DVJ,Ryanair,Generator #1,Electrical,24,5,68.0,Minor,5808,MEDIUM
+PH-BDT,KLM,Cargo Door,Structure,53,8,68.0,None,10740,MEDIUM
+EI-DUN,Ryanair,Fuselage Skin Forward,Structure,53,8,68.0,None,30303,MEDIUM
+OO-JVN,TUI fly,Fuselage Skin Aft,Structure,53,8,68.0,Minor,35809,MEDIUM
+OO-JBV,TUI fly,Elevator Left,Flight Controls,27,6,68.0,Minor,6231,MEDIUM
+EI-DVJ,Ryanair,Fuel Tank Wing Right,Fuel System,28,9,68.0,None,10592,MEDIUM
+LN-NAQ,Norwegian,Hydraulic Lines System A,Hydraulic,29,7,68.0,None,7124,MEDIUM
+EI-DKD,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,68.0,Minor,7929,MEDIUM
+PH-BYZ,KLM,Engine #1 Fan Blades,Powerplant,72,6,68.0,None,8113,MEDIUM
+EI-DVJ,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,68.0,Minor,4880,MEDIUM
+EI-DVJ,Ryanair,Nose Tire,Landing Gear,32,2,68.0,Minor,0,MEDIUM
+LN-NLP,Norwegian,Main Battery,Electrical,24,6,67.9,Minor,3662,MEDIUM
+LN-NAQ,Norwegian,Engine #1 Fan Blades,Powerplant,72,6,67.9,Minor,13421,MEDIUM
+PH-BMX,KLM,Pitot Tube Heater,Ice Protection,30,9,67.9,None,3348,MEDIUM
+EI-DGY,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,67.9,None,7479,MEDIUM
+PH-BMX,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,67.9,None,5108,MEDIUM
+OO-JVN,TUI fly,Aileron Left,Flight Controls,27,7,67.9,Minor,5249,MEDIUM
+PH-BUK,KLM,Wing Spar Right,Structure,57,9,67.9,None,38016,MEDIUM
+EI-DGC,Ryanair,Main Tire,Landing Gear,32,2,67.9,Minor,499,MEDIUM
+LN-NDS,Norwegian,Air Conditioning Pack Left,Air Conditioning,21,7,67.8,Minor,4836,MEDIUM
+EI-DGY,Ryanair,Wing Spar Right,Structure,57,9,67.7,Minor,43633,MEDIUM
+EI-DMY,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,67.7,None,4524,MEDIUM
+EI-DMY,Ryanair,Elevator Left,Flight Controls,27,6,67.7,None,7050,MEDIUM
+EI-DMY,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,67.7,None,12081,MEDIUM
+PH-BDT,KLM,Nose Tire,Landing Gear,32,2,67.7,None,494,MEDIUM
+EI-DMY,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,67.7,None,11230,MEDIUM
+PH-BDZ,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,67.7,None,2643,MEDIUM
+EI-DWF,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,67.7,None,6635,MEDIUM
+LN-NLP,Norwegian,Rudder,Flight Controls,27,6,67.7,Minor,8935,MEDIUM
+OO-JHF,TUI fly,Main Tire,Landing Gear,32,2,67.7,Minor,623,MEDIUM
+PH-BYZ,KLM,Wing Spar Left,Structure,57,9,67.7,None,34342,MEDIUM
+PH-BDB,KLM,Bleed Air Duct Left,Pneumatic,36,6,67.7,Minor,7344,MEDIUM
+EI-DGC,Ryanair,Flap Track Left,Flight Controls,27,9,67.7,Minor,14460,MEDIUM
+PH-BDB,KLM,Hydraulic Reservoir A,Hydraulic,29,5,67.7,None,7460,MEDIUM
+PH-BUK,KLM,Pax Door Frame,Structure,53,7,67.7,None,21638,MEDIUM
+EI-DDM,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,67.7,None,7917,MEDIUM
+PH-BDT,KLM,Wing Spar Left,Structure,57,9,67.7,None,42896,MEDIUM
+EI-DGY,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,67.7,Minor,2782,MEDIUM
+EI-DVJ,Ryanair,Wiring Harness FWD,Electrical,24,8,67.7,Minor,12780,MEDIUM
+LN-NKW,Norwegian,Fuselage Skin Aft,Structure,53,8,67.7,Minor,34344,MEDIUM
+PH-BYZ,KLM,Nose Landing Gear,Landing Gear,32,9,67.7,None,9880,MEDIUM
+EI-DLY,Ryanair,Fuselage Skin Forward,Structure,53,8,67.7,None,39201,MEDIUM
+LN-NAQ,Norwegian,Escape Slide #1,Equipment,25,4,67.7,Minor,11746,MEDIUM
+LN-NIR,Norwegian,Engine #2 Fan Blades,Powerplant,72,6,67.7,None,11760,MEDIUM
+EI-DKD,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,67.7,None,2379,MEDIUM
+EI-DKD,Ryanair,Fuselage Skin Aft,Structure,53,8,67.7,None,19670,MEDIUM
+PH-BUK,KLM,Potable Water Tank,Water/Waste,38,9,67.7,Minor,6770,MEDIUM
+LN-NAQ,Norwegian,Hydraulic Reservoir A,Hydraulic,29,5,67.6,Minor,10720,MEDIUM
+EI-DGY,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,67.6,Minor,9091,MEDIUM
+PH-BDT,KLM,Main Landing Gear Left,Landing Gear,32,10,67.6,Moderate,9980,MEDIUM
+EI-DNJ,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,67.6,Minor,2787,MEDIUM
+LN-NLP,Norwegian,Hydraulic Pump A,Hydraulic,29,5,67.6,Minor,6421,MEDIUM
+LN-NIR,Norwegian,Hydraulic Reservoir A,Hydraulic,29,5,67.6,Minor,9064,MEDIUM
+LN-NIR,Norwegian,Brake Assembly Left,Landing Gear,32,8,67.6,Minor,2349,MEDIUM
+PH-BRO,KLM,Wing Leading Edge Left,Structure,57,7,67.6,Minor,7075,MEDIUM
+EI-DWF,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,67.4,None,2460,MEDIUM
+OO-JVB,TUI fly,Aileron Left,Flight Controls,27,7,67.4,None,5747,MEDIUM
+PH-BKH,KLM,Generator #1,Electrical,24,5,67.4,None,7891,MEDIUM
+EI-DMY,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,67.4,Minor,11232,MEDIUM
+EI-DDM,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,67.4,None,8146,MEDIUM
+LN-NAQ,Norwegian,Elevator Left,Flight Controls,27,6,67.4,None,7160,MEDIUM
+EI-DLY,Ryanair,Pax Door Frame,Structure,53,7,67.4,None,23059,MEDIUM
+EI-DDM,Ryanair,Wing Spar Right,Structure,57,9,67.3,Minor,45170,MEDIUM
+EI-DWF,Ryanair,Pitot Tube Heater,Ice Protection,30,9,67.3,Minor,4344,MEDIUM
+EI-DUN,Ryanair,Rudder,Flight Controls,27,6,67.3,Minor,8641,MEDIUM
+OO-JVB,TUI fly,Nose Tire,Landing Gear,32,2,67.3,Minor,646,MEDIUM
+EI-DNJ,Ryanair,Wing Leading Edge Left,Structure,57,7,67.3,Minor,7842,MEDIUM
+LN-NIR,Norwegian,Elevator Left,Flight Controls,27,6,67.3,None,6884,MEDIUM
+PH-BYZ,KLM,Flap Track Right,Flight Controls,27,9,67.3,None,11977,MEDIUM
+OO-JVN,TUI fly,Pitot Tube Heater,Ice Protection,30,9,67.3,None,3323,MEDIUM
+LN-NIR,Norwegian,Pax Door Frame,Structure,53,7,67.2,Minor,15399,MEDIUM
+PH-BDB,KLM,Cargo Door,Structure,53,8,67.2,None,29012,MEDIUM
+PH-BDB,KLM,Fuel Boost Pump #2,Fuel System,28,6,67.2,None,3577,MEDIUM
+PH-BYZ,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,67.1,Minor,6882,MEDIUM
+OO-JVN,TUI fly,Aileron Right,Flight Controls,27,7,67.1,None,5750,MEDIUM
+EI-DVJ,Ryanair,Brake Assembly Right,Landing Gear,32,8,67.1,Minor,3240,MEDIUM
+PH-BDB,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,67.0,None,4082,MEDIUM
+LN-NLP,Norwegian,Brake Assembly Left,Landing Gear,32,8,66.9,Minor,2980,MEDIUM
+LN-NDS,Norwegian,Fuel Boost Pump #2,Fuel System,28,6,66.9,None,5323,MEDIUM
+LN-NLP,Norwegian,Main Tire,Landing Gear,32,2,66.9,None,0,MEDIUM
+PH-BUK,KLM,Pitot Tube Heater,Ice Protection,30,9,66.8,Minor,3190,MEDIUM
+EI-DWF,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,66.8,Minor,9761,MEDIUM
+PH-BRO,KLM,Wing Anti-Ice Valve Left,Ice Protection,30,8,66.6,Minor,6540,MEDIUM
+EI-DMY,Ryanair,Wing Leading Edge Left,Structure,57,7,66.6,Minor,9786,MEDIUM
+EI-DVJ,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,66.5,None,7812,MEDIUM
+EI-DVJ,Ryanair,Elevator Left,Flight Controls,27,6,66.5,None,6930,MEDIUM
+PH-BZZ,KLM,Aileron Right,Flight Controls,27,7,66.5,Minor,4099,MEDIUM
+PH-BUK,KLM,Fuel Boost Pump #2,Fuel System,28,6,66.5,Minor,3774,MEDIUM
+EI-DGY,Ryanair,Hydraulic Pump A,Hydraulic,29,5,66.5,Minor,5530,MEDIUM
+OO-JBV,TUI fly,Hydraulic Reservoir A,Hydraulic,29,5,66.5,Minor,8052,MEDIUM
+EI-DUN,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,66.4,Minor,8601,MEDIUM
+EI-DWF,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,66.4,Minor,7101,MEDIUM
+OO-JVN,TUI fly,Brake Assembly Left,Landing Gear,32,8,66.4,None,2767,MEDIUM
+EI-DLY,Ryanair,Brake Assembly Right,Landing Gear,32,8,66.3,None,1064,MEDIUM
+EI-DVJ,Ryanair,Nose Landing Gear,Landing Gear,32,9,66.3,Minor,11334,MEDIUM
+OO-JVN,TUI fly,Main Battery,Electrical,24,6,66.3,None,2794,MEDIUM
+EI-DMY,Ryanair,Fuselage Skin Forward,Structure,53,8,66.3,None,39191,MEDIUM
+OO-JVN,TUI fly,Wing Leading Edge Left,Structure,57,7,66.3,Minor,2351,MEDIUM
+PH-BMX,KLM,Fuselage Skin Aft,Structure,53,8,66.3,Minor,37030,MEDIUM
+EI-DLY,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,66.3,None,5130,MEDIUM
+PH-BDB,KLM,Engine #1 HP Compressor,Powerplant,72,7,66.2,None,11234,MEDIUM
+PH-BZZ,KLM,Generator #1,Electrical,24,5,66.2,None,5680,MEDIUM
+LN-NIR,Norwegian,Engine #1 Fan Blades,Powerplant,72,6,66.2,None,11750,MEDIUM
+LN-NLP,Norwegian,Engine #1 HP Compressor,Powerplant,72,7,66.2,None,9546,MEDIUM
+EI-DMY,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,66.2,None,13766,MEDIUM
+PH-BKH,KLM,Hydraulic Pump A,Hydraulic,29,5,66.1,None,5365,MEDIUM
+LN-NAQ,Norwegian,Aileron Right,Flight Controls,27,7,66.0,None,4244,MEDIUM
+PH-BKH,KLM,Fuselage Skin Forward,Structure,53,8,65.9,None,38765,MEDIUM
+OO-JVN,TUI fly,Rudder,Flight Controls,27,6,65.9,None,6556,MEDIUM
+EI-DMY,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,65.9,Minor,8290,MEDIUM
+EI-DGC,Ryanair,Wing Spar Right,Structure,57,9,65.9,Minor,43170,MEDIUM
+EI-DGY,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,65.9,Minor,2154,MEDIUM
+OO-JVN,TUI fly,Main Tire,Landing Gear,32,2,65.9,None,595,MEDIUM
+EI-DGC,Ryanair,Aileron Right,Flight Controls,27,7,65.9,None,3424,MEDIUM
+EI-DNJ,Ryanair,Escape Slide #1,Equipment,25,4,65.9,None,14093,MEDIUM
+PH-BZZ,KLM,Wing Spar Right,Structure,57,9,65.9,None,31349,MEDIUM
+LN-NIR,Norwegian,Wing Leading Edge Left,Structure,57,7,65.9,None,12250,MEDIUM
+PH-BKH,KLM,Main Tire,Landing Gear,32,2,65.9,Minor,565,MEDIUM
+LN-NLP,Norwegian,Wiring Harness FWD,Electrical,24,8,65.9,Minor,17784,MEDIUM
+PH-BMX,KLM,Engine #2 Fan Blades,Powerplant,72,6,65.9,None,15370,MEDIUM
+PH-BDB,KLM,Fuel Tank Wing Right,Fuel System,28,9,65.8,Minor,10228,MEDIUM
+EI-DWF,Ryanair,Escape Slide #1,Equipment,25,4,65.7,Moderate,12100,MEDIUM
+PH-BMX,KLM,Engine #1 HP Compressor,Powerplant,72,7,65.7,None,11777,MEDIUM
+EI-DDM,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,65.7,Minor,2822,MEDIUM
+PH-BMX,KLM,Escape Slide #1,Equipment,25,4,65.7,None,13297,MEDIUM
+PH-BZZ,KLM,Fuselage Skin Aft,Structure,53,8,65.6,None,35660,MEDIUM
+LN-NIR,Norwegian,Generator #1,Electrical,24,5,65.6,Minor,6884,MEDIUM
+PH-BUK,KLM,Aileron Left,Flight Controls,27,7,65.6,Minor,4713,MEDIUM
+EI-DDM,Ryanair,Nose Tire,Landing Gear,32,2,65.5,None,196,MEDIUM
+LN-NIR,Norwegian,Wiring Harness FWD,Electrical,24,8,65.5,None,12536,MEDIUM
+EI-DLY,Ryanair,Wing Leading Edge Left,Structure,57,7,65.5,None,10666,MEDIUM
+EI-DGC,Ryanair,Fuselage Skin Aft,Structure,53,8,65.5,None,44919,MEDIUM
+PH-BMX,KLM,Bleed Air Duct Left,Pneumatic,36,6,65.4,Minor,8876,MEDIUM
+PH-BRO,KLM,Pitot Tube Heater,Ice Protection,30,9,65.4,None,2565,MEDIUM
+EI-DDM,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,65.4,Minor,2933,MEDIUM
+LN-NLP,Norwegian,Elevator Left,Flight Controls,27,6,65.3,Minor,8210,MEDIUM
+LN-NDS,Norwegian,Hydraulic Pump A,Hydraulic,29,5,65.2,None,3979,MEDIUM
+EI-DGC,Ryanair,Generator #1,Electrical,24,5,65.2,None,5433,MEDIUM
+PH-BDZ,KLM,Fuselage Skin Forward,Structure,53,8,65.1,None,29349,MEDIUM
+EI-DGC,Ryanair,Potable Water Tank,Water/Waste,38,9,65.1,None,8638,MEDIUM
+PH-BDT,KLM,Hydraulic Pump A,Hydraulic,29,5,65.1,None,5704,MEDIUM
+PH-BDT,KLM,Aileron Right,Flight Controls,27,7,65.1,Minor,5423,MEDIUM
+PH-BDB,KLM,Engine #1 Fan Blades,Powerplant,72,6,65.1,Minor,12198,MEDIUM
+EI-DGC,Ryanair,Hydraulic Pump A,Hydraulic,29,5,64.9,None,6538,MEDIUM
+EI-DGC,Ryanair,Nose Tire,Landing Gear,32,2,64.8,Minor,427,MEDIUM
+PH-BMX,KLM,Main Tire,Landing Gear,32,2,64.8,Minor,586,MEDIUM
+OO-JHF,TUI fly,Flap Track Left,Flight Controls,27,9,64.8,None,15294,MEDIUM
+PH-BUK,KLM,Wiring Harness FWD,Electrical,24,8,64.8,None,15281,MEDIUM
+PH-BZZ,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,64.8,None,5973,MEDIUM
+EI-DGC,Ryanair,Main Battery,Electrical,24,6,64.8,Minor,4215,MEDIUM
+LN-NKW,Norwegian,Engine #1 HP Compressor,Powerplant,72,7,64.8,None,7654,MEDIUM
+LN-NIR,Norwegian,Wing Spar Left,Structure,57,9,64.7,None,46575,MEDIUM
+PH-BDZ,KLM,Rudder,Flight Controls,27,6,64.6,None,7288,MEDIUM
+EI-DLY,Ryanair,Nose Landing Gear,Landing Gear,32,9,64.5,Minor,11720,MEDIUM
+PH-BRO,KLM,Brake Assembly Left,Landing Gear,32,8,64.5,None,217,MEDIUM
+OO-JHF,TUI fly,Fuel Tank Wing Left,Fuel System,28,9,64.5,None,9692,MEDIUM
+EI-DVJ,Ryanair,Main Landing Gear Right,Landing Gear,32,10,64.5,Minor,10332,MEDIUM
+EI-DGY,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,64.5,None,2552,MEDIUM
+EI-DDM,Ryanair,Wing Spar Left,Structure,57,9,64.5,None,46592,MEDIUM
+LN-NLP,Norwegian,Engine #2 Fan Blades,Powerplant,72,6,64.5,None,10039,MEDIUM
+PH-BDZ,KLM,Fuel Boost Pump #2,Fuel System,28,6,64.5,None,4005,MEDIUM
+OO-JHF,TUI fly,Elevator Left,Flight Controls,27,6,64.4,None,9621,MEDIUM
+EI-DLY,Ryanair,Hydraulic Pump A,Hydraulic,29,5,64.4,None,7358,MEDIUM
+LN-NKW,Norwegian,Generator #1,Electrical,24,5,64.4,None,9010,MEDIUM
+LN-NLP,Norwegian,Generator #1,Electrical,24,5,64.3,None,4896,MEDIUM
+EI-DWF,Ryanair,Brake Assembly Right,Landing Gear,32,8,64.3,None,1152,MEDIUM
+PH-BDZ,KLM,Wiring Harness FWD,Electrical,24,8,64.3,Minor,11068,MEDIUM
+LN-NIR,Norwegian,Escape Slide #1,Equipment,25,4,64.3,Minor,16881,MEDIUM
+PH-BDT,KLM,Fuselage Skin Aft,Structure,53,8,64.3,None,35161,MEDIUM
+PH-BZZ,KLM,Elevator Left,Flight Controls,27,6,64.3,None,6435,MEDIUM
+PH-BDB,KLM,Wing Spar Left,Structure,57,9,64.3,None,51367,MEDIUM
+EI-DVJ,Ryanair,Wing Spar Right,Structure,57,9,64.3,Moderate,9926,MEDIUM
+EI-DGC,Ryanair,Brake Assembly Right,Landing Gear,32,8,64.2,None,274,MEDIUM
+EI-DGC,Ryanair,Wiring Harness FWD,Electrical,24,8,64.2,None,12892,MEDIUM
+OO-JVN,TUI fly,Elevator Left,Flight Controls,27,6,64.1,None,6275,MEDIUM
+OO-JVN,TUI fly,Cargo Door,Structure,53,8,64.1,None,30028,MEDIUM
+LN-NLP,Norwegian,Flap Track Left,Flight Controls,27,9,64.0,None,9210,MEDIUM
+PH-BKH,KLM,Brake Assembly Left,Landing Gear,32,8,64.0,None,148,MEDIUM
+LN-NDS,Norwegian,Wing Leading Edge Left,Structure,57,7,64.0,None,8295,MEDIUM
+PH-BKH,KLM,Engine #1 HP Compressor,Powerplant,72,7,64.0,None,13326,MEDIUM
+PH-BDB,KLM,Main Battery,Electrical,24,6,64.0,None,3534,MEDIUM
+PH-BDB,KLM,Generator #1,Electrical,24,5,64.0,None,4924,MEDIUM
+EI-DVJ,Ryanair,Brake Assembly Left,Landing Gear,32,8,64.0,Minor,3559,MEDIUM
+EI-DWF,Ryanair,Fuselage Skin Aft,Structure,53,8,64.0,Minor,29584,MEDIUM
+OO-JBB,TUI fly,Pitot Tube Heater,Ice Protection,30,9,64.0,None,4259,MEDIUM
+PH-BPX,KLM,Fuel Boost Pump #1,Fuel System,28,6,64.0,None,5012,MEDIUM
+EI-DWF,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,64.0,Minor,8548,MEDIUM
+LN-NIR,Norwegian,Fuel Boost Pump #2,Fuel System,28,6,64.0,None,3913,MEDIUM
+EI-DLY,Ryanair,Wing Spar Left,Structure,57,9,64.0,None,36414,MEDIUM
+OO-JBB,TUI fly,Escape Slide #1,Equipment,25,4,64.0,None,18606,MEDIUM
+PH-BDT,KLM,Rudder,Flight Controls,27,6,64.0,None,7708,MEDIUM
+EI-DLY,Ryanair,Main Landing Gear Right,Landing Gear,32,10,63.9,None,10293,MEDIUM
+LN-NDS,Norwegian,Fuel Boost Pump #1,Fuel System,28,6,63.9,None,4349,MEDIUM
+PH-BKH,KLM,Bleed Air Duct Left,Pneumatic,36,6,63.7,None,6727,MEDIUM
+LN-NLP,Norwegian,Hydraulic Reservoir A,Hydraulic,29,5,63.7,None,9945,MEDIUM
+OO-JVN,TUI fly,Nose Tire,Landing Gear,32,2,63.7,Minor,413,MEDIUM
+OO-JVB,TUI fly,Main Battery,Electrical,24,6,63.7,None,3735,MEDIUM
+OO-JVB,TUI fly,Brake Assembly Right,Landing Gear,32,8,63.7,None,1334,MEDIUM
+PH-BDB,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,63.7,None,5300,MEDIUM
+EI-DDM,Ryanair,Fuselage Skin Forward,Structure,53,8,63.7,None,48868,MEDIUM
+PH-BPX,KLM,Fuel Tank Wing Left,Fuel System,28,9,63.7,None,12044,MEDIUM
+EI-DUN,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,63.7,None,7064,MEDIUM
+OO-JBB,TUI fly,Main Tire,Landing Gear,32,2,63.7,None,0,MEDIUM
+EI-DVJ,Ryanair,Cargo Door,Structure,53,8,63.7,Minor,36164,MEDIUM
+LN-NAQ,Norwegian,Fuel Boost Pump #2,Fuel System,28,6,63.7,Minor,2682,MEDIUM
+PH-BKH,KLM,Elevator Left,Flight Controls,27,6,63.6,None,6176,MEDIUM
+LN-NIR,Norwegian,Hydraulic Pump A,Hydraulic,29,5,63.6,None,5325,MEDIUM
+EI-DDM,Ryanair,Main Battery,Electrical,24,6,63.5,None,3656,MEDIUM
+EI-DLY,Ryanair,Generator #1,Electrical,24,5,63.4,None,7082,MEDIUM
+OO-JBV,TUI fly,Fuel Boost Pump #1,Fuel System,28,6,63.4,None,4334,MEDIUM
+PH-BYZ,KLM,Pitot Tube Heater,Ice Protection,30,9,63.4,None,2518,MEDIUM
+LN-NKW,Norwegian,Pax Door Frame,Structure,53,7,63.4,None,33976,MEDIUM
+OO-JHF,TUI fly,Rudder,Flight Controls,27,6,63.4,None,8815,MEDIUM
+EI-DNJ,Ryanair,Nose Tire,Landing Gear,32,2,63.1,Minor,825,MEDIUM
+PH-BZZ,KLM,Engine #2 Fan Blades,Powerplant,72,6,63.0,None,10126,MEDIUM
+OO-JVN,TUI fly,Escape Slide #1,Equipment,25,4,63.0,None,11078,MEDIUM
+OO-JVB,TUI fly,Escape Slide #1,Equipment,25,4,63.0,None,10547,MEDIUM
+EI-DNJ,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,63.0,None,8086,MEDIUM
+EI-DWF,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,62.7,None,9577,MEDIUM
+PH-BPX,KLM,Bleed Air Duct Left,Pneumatic,36,6,62.7,None,6223,MEDIUM
+PH-BDB,KLM,Pitot Tube Heater,Ice Protection,30,9,62.6,None,2443,MEDIUM
+LN-NLP,Norwegian,Brake Assembly Right,Landing Gear,32,8,62.6,None,2667,MEDIUM
+EI-DNJ,Ryanair,Fuselage Skin Forward,Structure,53,8,62.6,Minor,24867,MEDIUM
+EI-DDM,Ryanair,Air Conditioning Pack Right,Air Conditioning,21,7,62.6,None,4621,MEDIUM
+LN-NKW,Norwegian,Bleed Air Duct Left,Pneumatic,36,6,62.6,None,7580,MEDIUM
+PH-BPX,KLM,Main Landing Gear Left,Landing Gear,32,10,62.6,None,12247,MEDIUM
+OO-JVB,TUI fly,Engine #1 Fan Blades,Powerplant,72,6,62.6,None,12478,MEDIUM
+PH-BKH,KLM,Main Landing Gear Right,Landing Gear,32,10,62.6,None,11032,MEDIUM
+PH-BDZ,KLM,Main Battery,Electrical,24,6,62.5,None,2437,MEDIUM
+PH-BZZ,KLM,Engine #1 HP Compressor,Powerplant,72,7,62.5,None,8493,MEDIUM
+EI-DVJ,Ryanair,Fuselage Skin Aft,Structure,53,8,62.5,None,36231,MEDIUM
+PH-BRO,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,62.5,None,5456,MEDIUM
+EI-DLY,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,62.4,None,10900,MEDIUM
+EI-DDM,Ryanair,Brake Assembly Left,Landing Gear,32,8,62.3,None,756,MEDIUM
+PH-BPX,KLM,Elevator Left,Flight Controls,27,6,62.3,None,7013,MEDIUM
+EI-DGC,Ryanair,Pitot Tube Heater,Ice Protection,30,9,62.3,None,2424,MEDIUM
+PH-BDZ,KLM,Fuel Tank Wing Right,Fuel System,28,9,62.2,None,16289,MEDIUM
+EI-DVJ,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,62.2,None,3474,MEDIUM
+LN-NDS,Norwegian,Elevator Left,Flight Controls,27,6,62.2,None,9358,MEDIUM
+EI-DKD,Ryanair,Main Landing Gear Right,Landing Gear,32,10,62.2,None,10646,MEDIUM
+PH-BPX,KLM,Fuel Boost Pump #2,Fuel System,28,6,62.2,None,5886,MEDIUM
+PH-BDZ,KLM,Generator #1,Electrical,24,5,62.2,None,6476,MEDIUM
+EI-DLY,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,61.9,None,11013,MEDIUM
+LN-NAQ,Norwegian,Rudder,Flight Controls,27,6,61.9,None,7011,MEDIUM
+LN-NAQ,Norwegian,Main Landing Gear Right,Landing Gear,32,10,61.9,None,11796,MEDIUM
+EI-DGY,Ryanair,Nose Landing Gear,Landing Gear,32,9,61.9,None,12402,MEDIUM
+PH-BPX,KLM,Wing Leading Edge Left,Structure,57,7,61.9,None,10864,MEDIUM
+PH-BPX,KLM,Brake Assembly Right,Landing Gear,32,8,61.9,None,3477,MEDIUM
+LN-NAQ,Norwegian,Flap Track Right,Flight Controls,27,9,61.9,None,12079,MEDIUM
+EI-DWF,Ryanair,Nose Landing Gear,Landing Gear,32,9,61.9,None,11970,MEDIUM
+EI-DNJ,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,61.9,None,15150,MEDIUM
+EI-DVJ,Ryanair,Main Battery,Electrical,24,6,61.9,None,3181,MEDIUM
+LN-NLP,Norwegian,Engine #1 HP Turbine,Powerplant,72,5,61.9,None,12220,MEDIUM
+PH-BUK,KLM,Engine #1 HP Turbine,Powerplant,72,5,61.9,None,8446,MEDIUM
+PH-BRO,KLM,Wiring Harness FWD,Electrical,24,8,61.9,None,18614,MEDIUM
+OO-JVB,TUI fly,Nose Landing Gear,Landing Gear,32,9,61.9,None,19338,MEDIUM
+LN-NDS,Norwegian,Engine #2 Fan Blades,Powerplant,72,6,61.9,None,12967,MEDIUM
+EI-DUN,Ryanair,Flap Track Left,Flight Controls,27,9,61.9,None,13550,MEDIUM
+OO-JHF,TUI fly,Pax Door Frame,Structure,53,7,61.9,None,36523,MEDIUM
+PH-BKH,KLM,Fuel Boost Pump #2,Fuel System,28,6,61.9,None,5008,MEDIUM
+EI-DLY,Ryanair,Flap Track Left,Flight Controls,27,9,61.7,None,11383,MEDIUM
+PH-BDT,KLM,Engine #2 Fan Blades,Powerplant,72,6,61.6,None,13420,MEDIUM
+EI-DKD,Ryanair,Generator #1,Electrical,24,5,61.6,None,4965,MEDIUM
+EI-DKD,Ryanair,Main Tire,Landing Gear,32,2,61.6,None,47,MEDIUM
+EI-DNJ,Ryanair,Generator #1,Electrical,24,5,61.6,None,5241,MEDIUM
+EI-DGY,Ryanair,Aileron Left,Flight Controls,27,7,61.6,None,8329,MEDIUM
+OO-JVN,TUI fly,Engine #1 Fan Blades,Powerplant,72,6,61.2,None,12074,MEDIUM
+EI-DLY,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,61.1,None,8285,MEDIUM
+EI-DKD,Ryanair,Main Landing Gear Left,Landing Gear,32,10,61.1,None,14359,MEDIUM
+PH-BZZ,KLM,Bleed Air Duct Left,Pneumatic,36,6,61.1,None,8618,MEDIUM
+OO-JVB,TUI fly,Engine #1 HP Turbine,Powerplant,72,5,61.1,None,9624,MEDIUM
+PH-BKH,KLM,Nose Tire,Landing Gear,32,2,61.1,None,955,MEDIUM
+OO-JBV,TUI fly,Bleed Air Duct Left,Pneumatic,36,6,60.6,None,8615,MEDIUM
+EI-DUN,Ryanair,Pax Door Frame,Structure,53,7,60.6,None,28819,MEDIUM
+LN-NLP,Norwegian,Pax Door Frame,Structure,53,7,60.6,None,23610,MEDIUM
+EI-DVJ,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,60.5,None,7163,MEDIUM
+OO-JHF,TUI fly,Escape Slide #1,Equipment,25,4,60.5,None,16015,MEDIUM
+EI-DMY,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,60.3,None,3154,MEDIUM
+EI-DWF,Ryanair,Elevator Left,Flight Controls,27,6,60.3,None,7773,MEDIUM
+EI-DGY,Ryanair,Engine #1 HP Compressor,Powerplant,72,7,60.3,None,12402,MEDIUM
+PH-BMX,KLM,Fuel Boost Pump #1,Fuel System,28,6,60.3,None,4699,MEDIUM
+EI-DUN,Ryanair,Engine #2 Fan Blades,Powerplant,72,6,60.1,None,10167,MEDIUM
+LN-NKW,Norwegian,Air Conditioning Pack Left,Air Conditioning,21,7,60.1,None,8435,MEDIUM
+PH-BZZ,KLM,Flap Track Right,Flight Controls,27,9,60.0,None,14411,MEDIUM
+EI-DGY,Ryanair,Wiring Harness FWD,Electrical,24,8,60.0,None,9627,MEDIUM
+LN-NDS,Norwegian,Main Landing Gear Left,Landing Gear,32,10,60.0,None,12426,MEDIUM
+EI-DNJ,Ryanair,Elevator Left,Flight Controls,27,6,60.0,None,7467,MEDIUM
+EI-DGC,Ryanair,Pax Door Frame,Structure,53,7,60.0,None,29997,MEDIUM
+PH-BZZ,KLM,Wiring Harness FWD,Electrical,24,8,60.0,None,12039,MEDIUM
+LN-NLP,Norwegian,Potable Water Tank,Water/Waste,38,9,60.0,None,8899,MEDIUM
+EI-DUN,Ryanair,Escape Slide #1,Equipment,25,4,60.0,None,17664,MEDIUM
+PH-BUK,KLM,Elevator Left,Flight Controls,27,6,60.0,None,8310,MEDIUM
+OO-JVB,TUI fly,Hydraulic Reservoir A,Hydraulic,29,5,60.0,None,4702,MEDIUM
+EI-DLY,Ryanair,Fuselage Skin Aft,Structure,53,8,59.8,None,46547,MEDIUM
+EI-DKD,Ryanair,Hydraulic Pump A,Hydraulic,29,5,59.7,None,4452,MEDIUM
+LN-NIR,Norwegian,Brake Assembly Right,Landing Gear,32,8,59.7,None,1801,MEDIUM
+LN-NKW,Norwegian,Fuel Boost Pump #1,Fuel System,28,6,59.7,None,4549,MEDIUM
+EI-DGY,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,59.7,None,13991,MEDIUM
+PH-BRO,KLM,Elevator Left,Flight Controls,27,6,59.7,None,7446,MEDIUM
+EI-DVJ,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,59.7,None,6434,MEDIUM
+LN-NKW,Norwegian,Elevator Left,Flight Controls,27,6,59.7,None,8758,MEDIUM
+OO-JVB,TUI fly,Engine #2 Fan Blades,Powerplant,72,6,59.7,None,10755,MEDIUM
+PH-BDB,KLM,Engine #1 HP Turbine,Powerplant,72,5,59.7,None,12462,MEDIUM
+LN-NAQ,Norwegian,Nose Tire,Landing Gear,32,2,59.7,None,392,MEDIUM
+PH-BZZ,KLM,Nose Landing Gear,Landing Gear,32,9,59.7,None,14711,MEDIUM
+EI-DUN,Ryanair,Bleed Air Duct Left,Pneumatic,36,6,59.7,None,11600,MEDIUM
+EI-DVJ,Ryanair,Engine #1 Fan Blades,Powerplant,72,6,59.7,None,14338,MEDIUM
+EI-DMY,Ryanair,Main Tire,Landing Gear,32,2,59.5,None,175,MEDIUM
+LN-NLP,Norwegian,Escape Slide #1,Equipment,25,4,59.0,None,15495,MEDIUM
+EI-DNJ,Ryanair,Main Tire,Landing Gear,32,2,58.8,None,484,MEDIUM
+EI-DUN,Ryanair,Cargo Door,Structure,53,8,58.8,None,30671,MEDIUM
+EI-DNJ,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,58.7,None,4534,MEDIUM
+LN-NKW,Norwegian,Main Tire,Landing Gear,32,2,58.6,None,0,MEDIUM
+PH-BKH,KLM,Engine #1 Fan Blades,Powerplant,72,6,58.6,None,13544,MEDIUM
+EI-DGY,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,58.5,None,8102,MEDIUM
+OO-JVB,TUI fly,Bleed Air Duct Left,Pneumatic,36,6,58.4,None,7380,MEDIUM
+EI-DDM,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,58.3,None,3647,MEDIUM
+EI-DMY,Ryanair,Wiring Harness FWD,Electrical,24,8,58.3,None,16921,MEDIUM
+PH-BZZ,KLM,Nose Tire,Landing Gear,32,2,58.2,None,173,MEDIUM
+EI-DNJ,Ryanair,Fuselage Skin Aft,Structure,53,8,58.2,None,38582,MEDIUM
+PH-BDB,KLM,Nose Landing Gear,Landing Gear,32,9,58.2,None,16290,MEDIUM
+PH-BRO,KLM,Engine #1 HP Turbine,Powerplant,72,5,58.2,None,11303,MEDIUM
+LN-NAQ,Norwegian,Flap Track Left,Flight Controls,27,9,58.2,None,13516,MEDIUM
+LN-NKW,Norwegian,Escape Slide #1,Equipment,25,4,58.2,None,15334,MEDIUM
+EI-DGC,Ryanair,Escape Slide #1,Equipment,25,4,58.2,None,14143,MEDIUM
+LN-NIR,Norwegian,Fuselage Skin Forward,Structure,53,8,58.2,None,42445,MEDIUM
+OO-JVN,TUI fly,Wing Spar Right,Structure,57,9,58.0,None,45450,MEDIUM
+PH-BYZ,KLM,Rudder,Flight Controls,27,6,58.0,None,7623,MEDIUM
+OO-JVN,TUI fly,Flap Track Left,Flight Controls,27,9,57.9,None,11438,MEDIUM
+PH-BYZ,KLM,Fuel Boost Pump #1,Fuel System,28,6,57.9,None,2995,MEDIUM
+LN-NDS,Norwegian,Escape Slide #1,Equipment,25,4,57.9,None,12998,MEDIUM
+LN-NAQ,Norwegian,Fuel Boost Pump #1,Fuel System,28,6,57.9,None,4219,MEDIUM
+PH-BKH,KLM,Hydraulic Reservoir A,Hydraulic,29,5,57.9,None,7796,MEDIUM
+EI-DKD,Ryanair,Wing Anti-Ice Valve Left,Ice Protection,30,8,57.9,None,4187,MEDIUM
+LN-NIR,Norwegian,Main Tire,Landing Gear,32,2,57.9,None,0,MEDIUM
+EI-DGY,Ryanair,Generator #1,Electrical,24,5,57.9,None,8487,MEDIUM
+EI-DWF,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,57.9,None,10705,MEDIUM
+EI-DLY,Ryanair,Main Tire,Landing Gear,32,2,57.9,None,99,MEDIUM
+LN-NIR,Norwegian,Nose Tire,Landing Gear,32,2,57.9,None,45,MEDIUM
+PH-BPX,KLM,Flap Track Left,Flight Controls,27,9,57.9,None,15691,MEDIUM
+EI-DWF,Ryanair,Fuselage Skin Forward,Structure,53,8,57.9,None,30200,MEDIUM
+EI-DMY,Ryanair,Generator #1,Electrical,24,5,57.9,None,6664,MEDIUM
+PH-BUK,KLM,Engine #1 Fan Blades,Powerplant,72,6,57.9,None,11589,MEDIUM
+LN-NKW,Norwegian,Nose Tire,Landing Gear,32,2,57.9,None,428,MEDIUM
+PH-BUK,KLM,Wing Spar Left,Structure,57,9,57.9,None,44277,MEDIUM
+EI-DVJ,Ryanair,Escape Slide #1,Equipment,25,4,57.9,None,13504,MEDIUM
+LN-NAQ,Norwegian,Wiring Harness FWD,Electrical,24,8,57.9,None,16481,MEDIUM
+EI-DUN,Ryanair,Main Tire,Landing Gear,32,2,57.9,None,0,MEDIUM
+PH-BDB,KLM,Wing Leading Edge Left,Structure,57,7,57.9,None,11683,MEDIUM
+EI-DGY,Ryanair,Rudder,Flight Controls,27,6,57.6,None,8586,MEDIUM
+EI-DGY,Ryanair,Main Battery,Electrical,24,6,57.6,None,3296,MEDIUM
+EI-DWF,Ryanair,Main Battery,Electrical,24,6,57.4,None,3985,MEDIUM
+PH-BYZ,KLM,Engine #2 Fan Blades,Powerplant,72,6,57.3,None,12373,MEDIUM
+PH-BMX,KLM,Flap Track Left,Flight Controls,27,9,57.3,None,12135,MEDIUM
+PH-BPX,KLM,Fuselage Skin Forward,Structure,53,8,56.9,None,34988,MEDIUM
+EI-DKD,Ryanair,Pax Door Frame,Structure,53,7,56.9,None,32060,MEDIUM
+LN-NLP,Norwegian,Cargo Door,Structure,53,8,56.8,None,32178,MEDIUM
+PH-BYZ,KLM,Brake Assembly Left,Landing Gear,32,8,56.6,None,1453,MEDIUM
+OO-JVB,TUI fly,Wing Leading Edge Left,Structure,57,7,56.6,None,7698,MEDIUM
+EI-DUN,Ryanair,Main Landing Gear Right,Landing Gear,32,10,56.6,None,13508,MEDIUM
+LN-NDS,Norwegian,Hydraulic Reservoir A,Hydraulic,29,5,56.2,None,8774,MEDIUM
+LN-NIR,Norwegian,Engine #1 HP Compressor,Powerplant,72,7,56.0,None,11789,MEDIUM
+OO-JHF,TUI fly,Engine #1 Fan Blades,Powerplant,72,6,55.9,None,15572,MEDIUM
+EI-DMY,Ryanair,Wing Spar Right,Structure,57,9,55.3,None,46634,MEDIUM
+EI-DGY,Ryanair,Fuselage Skin Aft,Structure,53,8,55.2,None,37928,MEDIUM
+OO-JHF,TUI fly,Fuel Boost Pump #1,Fuel System,28,6,55.2,None,4639,MEDIUM
+EI-DUN,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,55.1,None,10561,MEDIUM
+PH-BDT,KLM,Escape Slide #1,Equipment,25,4,55.1,None,13627,MEDIUM
+PH-BDT,KLM,Fuel Boost Pump #1,Fuel System,28,6,54.8,None,4660,MEDIUM
+PH-BKH,KLM,Wiring Harness FWD,Electrical,24,8,54.8,None,18487,MEDIUM
+PH-BRO,KLM,Escape Slide #1,Equipment,25,4,54.8,None,15342,MEDIUM
+LN-NLP,Norwegian,Nose Tire,Landing Gear,32,2,54.8,None,1113,MEDIUM
+PH-BPX,KLM,Escape Slide #1,Equipment,25,4,54.5,None,14974,MEDIUM
+PH-BDB,KLM,Pax Door Frame,Structure,53,7,54.2,None,39568,MEDIUM
+LN-NDS,Norwegian,Nose Tire,Landing Gear,32,2,54.2,None,409,MEDIUM
+PH-BUK,KLM,Engine #2 Fan Blades,Powerplant,72,6,54.1,None,10466,MEDIUM
+EI-DLY,Ryanair,Fuel Boost Pump #1,Fuel System,28,6,53.9,None,3414,MEDIUM
+PH-BYZ,KLM,Engine #1 HP Turbine,Powerplant,72,5,53.5,None,10663,MEDIUM
+LN-NDS,Norwegian,Engine #1 Fan Blades,Powerplant,72,6,53.1,None,12310,MEDIUM
+PH-BMX,KLM,Generator #1,Electrical,24,5,53.1,None,4981,MEDIUM
+PH-BRO,KLM,Air Conditioning Pack Right,Air Conditioning,21,7,53.0,None,7238,MEDIUM
+LN-NLP,Norwegian,Air Conditioning Pack Left,Air Conditioning,21,7,52.2,None,6649,MEDIUM
+LN-NDS,Norwegian,Generator #1,Electrical,24,5,51.9,None,5686,MEDIUM
+LN-NAQ,Norwegian,Main Tire,Landing Gear,32,2,51.9,None,980,MEDIUM
+EI-DMY,Ryanair,Wing Spar Left,Structure,57,9,51.6,None,47669,MEDIUM
+OO-JBB,TUI fly,Main Battery,Electrical,24,6,51.2,None,5082,MEDIUM
+EI-DGC,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,51.2,None,9397,MEDIUM
+PH-BDT,KLM,Engine #1 Fan Blades,Powerplant,72,6,51.2,None,14206,MEDIUM
+PH-BKH,KLM,Escape Slide #1,Equipment,25,4,51.1,None,15039,MEDIUM
+EI-DNJ,Ryanair,Hydraulic Pump A,Hydraulic,29,5,51.1,None,6658,MEDIUM
+LN-NAQ,Norwegian,Hydraulic Pump A,Hydraulic,29,5,51.0,None,5362,MEDIUM
+EI-DDM,Ryanair,Main Tire,Landing Gear,32,2,51.0,None,1216,MEDIUM
+EI-DKD,Ryanair,Hydraulic Reservoir A,Hydraulic,29,5,50.9,None,9544,MEDIUM
+EI-DDM,Ryanair,Generator #1,Electrical,24,5,50.8,None,6409,MEDIUM
+PH-BZZ,KLM,Hydraulic Reservoir A,Hydraulic,29,5,50.4,None,7133,MEDIUM
+OO-JVB,TUI fly,Fuel Boost Pump #2,Fuel System,28,6,50.1,None,4771,MEDIUM
+EI-DNJ,Ryanair,Rudder,Flight Controls,27,6,49.4,None,7396,MEDIUM
+PH-BZZ,KLM,Engine #1 HP Turbine,Powerplant,72,5,48.6,None,13658,MEDIUM
+EI-DMY,Ryanair,Air Conditioning Pack Left,Air Conditioning,21,7,47.6,None,8719,MEDIUM
+OO-JBB,TUI fly,Engine #1 HP Turbine,Powerplant,72,5,47.5,None,14028,MEDIUM
+EI-DKD,Ryanair,Fuel Boost Pump #2,Fuel System,28,6,47.5,None,3625,MEDIUM
+EI-DLY,Ryanair,Nose Tire,Landing Gear,32,2,46.9,None,189,MEDIUM
+EI-DMY,Ryanair,Escape Slide #1,Equipment,25,4,46.2,None,19638,MEDIUM
+EI-DDM,Ryanair,Escape Slide #1,Equipment,25,4,46.2,None,17816,MEDIUM
+PH-BDT,KLM,Main Tire,Landing Gear,32,2,46.2,None,570,MEDIUM
+EI-DDM,Ryanair,Engine #1 HP Turbine,Powerplant,72,5,45.3,None,14574,MEDIUM
+OO-JBB,TUI fly,Bleed Air Duct Left,Pneumatic,36,6,45.2,None,11964,MEDIUM
+PH-BDT,KLM,Hydraulic Lines System A,Hydraulic,29,7,45.2,None,10925,MEDIUM
+LN-NAQ,Norwegian,Generator #1,Electrical,24,5,45.1,None,6165,MEDIUM
+EI-DMY,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,44.9,None,10166,MEDIUM
+LN-NAQ,Norwegian,Fuel Tank Wing Right,Fuel System,28,9,44.9,None,12461,MEDIUM
+OO-JHF,TUI fly,Hydraulic Reservoir A,Hydraulic,29,5,44.4,None,7678,MEDIUM
+PH-BRO,KLM,Generator #1,Electrical,24,5,44.4,None,7323,MEDIUM
+PH-BDT,KLM,Air Conditioning Pack Left,Air Conditioning,21,7,44.1,None,7023,MEDIUM
+EI-DWF,Ryanair,Nose Tire,Landing Gear,32,2,43.7,None,0,MEDIUM
+PH-BPX,KLM,Potable Water Tank,Water/Waste,38,9,43.5,None,10798,MEDIUM
+EI-DWF,Ryanair,Main Tire,Landing Gear,32,2,43.5,None,720,MEDIUM
+LN-NAQ,Norwegian,Engine #1 HP Turbine,Powerplant,72,5,43.3,None,12849,MEDIUM
+EI-DDM,Ryanair,Pax Door Frame,Structure,53,7,41.2,None,27109,MEDIUM
+EI-DNJ,Ryanair,Hydraulic Lines System A,Hydraulic,29,7,40.8,None,14557,MEDIUM
+PH-BDZ,KLM,Engine #1 HP Turbine,Powerplant,72,5,38.8,None,10295,LOW
+PH-BDZ,KLM,Engine #1 Fan Blades,Powerplant,72,6,38.2,None,15867,LOW
+PH-BYZ,KLM,Fuel Boost Pump #2,Fuel System,28,6,35.3,None,3534,LOW
+EI-DVJ,Ryanair,Main Tire,Landing Gear,32,2,33.4,None,1049,LOW
+PH-BDT,KLM,Main Battery,Electrical,24,6,33.1,None,4717,LOW
+PH-BZZ,KLM,Escape Slide #1,Equipment,25,4,21.7,None,15406,LOW
+PH-BMX,KLM,Hydraulic Reservoir A,Hydraulic,29,5,18.1,None,10040,LOW
+OO-JVN,TUI fly,Engine #1 HP Turbine,Powerplant,72,5,18.0,None,12467,LOW
