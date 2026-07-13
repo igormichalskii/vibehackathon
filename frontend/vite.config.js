@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'https://vibehackathon-production.up.railway.app',
+      '/api': 'http://localhost:8000',
     },
   },
 })
