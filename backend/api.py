@@ -432,6 +432,8 @@ def camo_risk_report() -> list[dict[str, Any]]:
     out = []
     for _, row in df.iterrows():
         out.append({
+            "tail_number":         to_str(row.get("Tail Number")),
+            "operator":            to_str(row.get("Operator")),
             "part":                to_str(row.get("Part")),
             "system":              to_str(row.get("System")),
             "ata_chapter":         to_int(row.get("ATA Chapter")),

@@ -267,7 +267,7 @@ function ExpandedPartRow({ part }) {
 
   return (
     <tr>
-      <td colSpan={8} style={{ padding: 0, background: C.grayBg, borderBottom: `1px solid ${C.grayBorder}` }}>
+      <td colSpan={9} style={{ padding: 0, background: C.grayBg, borderBottom: `1px solid ${C.grayBorder}` }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', padding: 24, gap: 0 }}>
 
           {/* Col 1 — techniczne */}
@@ -396,6 +396,7 @@ function StyledSelect({ value, onChange, options }) {
 
 const COLS = [
   { key: 'part',               label: 'CZĘŚĆ / KOMPONENT', desc: 'Nazwa części lub podzespołu samolotu B737' },
+  { key: 'tail_number',        label: 'SAMOLOT',           desc: 'Numer ogonowy samolotu, którego dotyczy komponent' },
   { key: 'system',             label: 'SYSTEM',            desc: 'Układ funkcjonalny, do którego należy część' },
   { key: 'ata_chapter',        label: 'ATA',               desc: 'Numer rozdziału wg standardu ATA 100 (klasyfikacja komponentów lotniczych)' },
   { key: 'damage_probability', label: 'USZKODZENIE %',     desc: 'Prawdopodobieństwo uszkodzenia wg modelu ML (Logistic Regression, Task 1)' },
@@ -434,7 +435,7 @@ export default function RiskReport() {
     let rows = data.filter(d => {
       if (search) {
         const q = search.toLowerCase();
-        if (!d.part?.toLowerCase().includes(q) && !d.system?.toLowerCase().includes(q)) return false;
+        if (!d.part?.toLowerCase().includes(q) && !d.system?.toLowerCase().includes(q) && !d.tail_number?.toLowerCase().includes(q) && !d.operator?.toLowerCase().includes(q)) return false;
       }
       if (priority !== 'ALL' && d.priority !== priority) return false;
       if (system !== 'Wszystkie systemy' && d.system !== system) return false;
@@ -530,7 +531,7 @@ export default function RiskReport() {
             type="text"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            placeholder="Szukaj części lub systemu..."
+            placeholder="Szukaj części, systemu lub samolotu..."
             style={{
               width: '100%', padding: '9px 12px 9px 34px', fontSize: 13,
               border: `1px solid ${C.grayBorder}`, background: '#FFFFFF', borderRadius: 2,
@@ -570,14 +571,15 @@ export default function RiskReport() {
       <div style={{ marginLeft: -40, marginRight: -40 }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', tableLayout: 'fixed' }}>
           <colgroup>
-            <col style={{ width: '18%' }} />
-            <col style={{ width: '13%' }} />
-            <col style={{ width: '6%' }} />
-            <col style={{ width: '17%' }} />
-            <col style={{ width: '12%' }} />
+            <col style={{ width: '15%' }} />
+            <col style={{ width: '10%' }} />
+            <col style={{ width: '11%' }} />
+            <col style={{ width: '5%' }} />
+            <col style={{ width: '15%' }} />
+            <col style={{ width: '11%' }} />
+            <col style={{ width: '10%' }} />
             <col style={{ width: '11%' }} />
             <col style={{ width: '12%' }} />
-            <col style={{ width: '11%' }} />
           </colgroup>
           <thead>
             <tr style={{ background: C.navy }}>
@@ -622,6 +624,19 @@ export default function RiskReport() {
                         {part.part}
                       </span>
                     </td>
+                    {/* Samolot */}
+                    <td style={{ padding: '14px 16px', verticalAlign: 'middle' }}>
+                      <div>
+                        <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, fontWeight: 600, color: C.textPrimary, letterSpacing: '0.04em' }}>
+                          {part.tail_number || '—'}
+                        </span>
+                        {part.operator && (
+                          <div style={{ fontFamily: "'IBM Plex Sans', sans-serif", fontSize: 11, color: C.textMuted, marginTop: 2 }}>
+                            {part.operator}
+                          </div>
+                        )}
+                      </div>
+                    </td>
                     {/* System */}
                     <td style={{ padding: '14px 16px', verticalAlign: 'middle' }}>
                       <SystemBadge system={part.system || '—'} />
@@ -659,7 +674,7 @@ export default function RiskReport() {
             })}
             {filtered.length === 0 && (
               <tr>
-                <td colSpan={8} style={{ padding: '60px 40px', textAlign: 'center', color: C.textMuted, fontSize: 14, background: C.grayBg }}>
+                <td colSpan={9} style={{ padding: '60px 40px', textAlign: 'center', color: C.textMuted, fontSize: 14, background: C.grayBg }}>
                   Brak komponentów spełniających kryteria.
                 </td>
               </tr>
